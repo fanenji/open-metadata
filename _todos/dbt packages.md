@@ -1,0 +1,6 @@
+- [ ] #dbt dbt_expectations
+- [ ] #dbt dbt_project_evaluator
+- [ ] #dbt dbt_artifacts
+- [ ] #dbt dbt_privacy
+- [ ] #dbt dbt_profiler
+- [ ] #dbt dbt_meta_audit

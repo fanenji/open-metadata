@@ -1,0 +1,204 @@
+{
+  "recentFiles": [
+    {
+      "basename": "_todos",
+      "path": "_todos/_todos.md"
+    },
+    {
+      "basename": "URL GitLab",
+      "path": "_notes/URL GitLab.md"
+    },
+    {
+      "basename": "JupyterLab Dev Env - Osservazioni Claude",
+      "path": "_notes/JupyterLab Dev Env - Osservazioni Claude.md"
+    },
+    {
+      "basename": "dremio-mcp-server-production-readiness-2026-05-08",
+      "path": "wiki/queries/dremio-mcp-server-production-readiness-2026-05-08.md"
+    },
+    {
+      "basename": "index",
+      "path": "wiki/index.md"
+    },
+    {
+      "basename": "airflow-vs-kestra",
+      "path": "wiki/sources/airflow-vs-kestra.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "openmetadata-vs-alternatives",
+      "path": "wiki/entities/openmetadata-vs-alternatives.md"
+    },
+    {
+      "basename": "OpenCode in Ambiente di sviluppo",
+      "path": "_todos/OpenCode in Ambiente di sviluppo.md"
+    },
+    {
+      "basename": "LLM Wiki with a Knowledge Graph",
+      "path": "_notes/LLM Wiki with a Knowledge Graph.md"
+    },
+    {
+      "basename": "Self Service BI",
+      "path": "_todos/Self Service BI.md"
+    },
+    {
+      "basename": "AI-Ready Data vs. Analytics-Ready Data",
+      "path": "_inbox/clippings/AI-Ready Data vs. Analytics-Ready Data.md"
+    },
+    {
+      "basename": "Best Practices",
+      "path": "raw/Best Practices.md"
+    },
+    {
+      "basename": "VIDEO",
+      "path": "raw/VIDEO.md"
+    },
+    {
+      "basename": "Understanding dbt. Monitoring",
+      "path": "raw/Understanding dbt. Monitoring.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "raw/Tools.md"
+    },
+    {
+      "basename": "REFLECTIONS",
+      "path": "raw/REFLECTIONS.md"
+    },
+    {
+      "basename": "RDF Ontology",
+      "path": "raw/RDF Ontology.md"
+    },
+    {
+      "basename": "QuackOSM",
+      "path": "raw/QuackOSM.md"
+    },
+    {
+      "basename": "PROCESS",
+      "path": "raw/PROCESS.md"
+    },
+    {
+      "basename": "Problema PDS - VDS (Anastasia)",
+      "path": "raw/Problema PDS - VDS (Anastasia).md"
+    },
+    {
+      "basename": "Piano Generale Attività",
+      "path": "raw/Piano Generale Attività.md"
+    },
+    {
+      "basename": "Patterns of Data Engineering",
+      "path": "raw/Patterns of Data Engineering.md"
+    },
+    {
+      "basename": "OPENMETADATA - NOTE",
+      "path": "raw/OPENMETADATA - NOTE.md"
+    },
+    {
+      "basename": "NESSIE",
+      "path": "raw/NESSIE.md"
+    },
+    {
+      "basename": "DOWNLOAD",
+      "path": "raw/DOWNLOAD.md"
+    },
+    {
+      "basename": "OPENDATA",
+      "path": "raw/OPENDATA.md"
+    },
+    {
+      "basename": "Modern Data Stack",
+      "path": "raw/Modern Data Stack.md"
+    },
+    {
+      "basename": "nessie",
+      "path": "wiki/sources/nessie.md"
+    },
+    {
+      "basename": "3 Reasons Data Engineers Are the Unsung Heroes of GenAI",
+      "path": "raw/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md"
+    },
+    {
+      "basename": "CI-CD",
+      "path": "raw/CI-CD.md"
+    },
+    {
+      "basename": "ci-cd",
+      "path": "wiki/sources/ci-cd.md"
+    },
+    {
+      "basename": "JupyterLab Dev Env - Osservazioni Claude",
+      "path": "_notes/dp/JupyterLab Dev Env - Osservazioni Claude.md"
+    },
+    {
+      "basename": "2026-02-06-meeting-seacom",
+      "path": "wiki/meetings/2026-02-06-meeting-seacom.md"
+    },
+    {
+      "basename": "_PROMPT LOG",
+      "path": "_notes/llm/_PROMPT LOG.md"
+    },
+    {
+      "basename": "LLM Benhmark - quality summary",
+      "path": "_notes/dp/LLM Benhmark - quality summary.md"
+    },
+    {
+      "basename": "URL GitLab",
+      "path": "_notes/dp/URL GitLab.md"
+    },
+    {
+      "basename": "2026-05-05 Meeting Interno",
+      "path": "_inbox/2026-05-05 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-05-04 Meeting Interno",
+      "path": "_inbox/2026-05-04 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-05-04 Meeting Seacom",
+      "path": "_inbox/2026-05-04 Meeting Seacom.md"
+    },
+    {
+      "basename": "pipeline-elt",
+      "path": "wiki/components/pipeline-elt.md"
+    },
+    {
+      "basename": "5 DuckDB GeoParquet Joins That Feel Instant",
+      "path": "raw/5 DuckDB GeoParquet Joins That Feel Instant.md"
+    },
+    {
+      "basename": "5-duckdb-geoparquet-joins-that-feel-instant",
+      "path": "wiki/sources/5-duckdb-geoparquet-joins-that-feel-instant.md"
+    },
+    {
+      "basename": "3-reasons-data-engineers-unsung-heroes-genai",
+      "path": "wiki/sources/3-reasons-data-engineers-unsung-heroes-genai.md"
+    },
+    {
+      "basename": "_classification",
+      "path": "wiki/sources/_classification.md"
+    },
+    {
+      "basename": "analisi-architettura",
+      "path": "wiki/sources/analisi-architettura.md"
+    },
+    {
+      "basename": "sintesi-architettura-claude",
+      "path": "wiki/sources/sintesi-architettura-claude.md"
+    },
+    {
+      "basename": "stack-cartografico",
+      "path": "wiki/components/stack-cartografico.md"
+    },
+    {
+      "basename": "modern-gis-stack",
+      "path": "wiki/sources/modern-gis-stack.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
