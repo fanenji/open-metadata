@@ -1,16 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "_todos",
-      "path": "_todos/_todos.md"
+      "basename": "purpose",
+      "path": "purpose.md"
+    },
+    {
+      "basename": "geospatial-api-server-comparison",
+      "path": "wiki/comparisons/geospatial-api-server-comparison.md"
+    },
+    {
+      "basename": "schema",
+      "path": "schema.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "PROCESS",
+      "path": "wiki/sources/PROCESS.md"
+    },
+    {
+      "basename": "_todo",
+      "path": "_notes/_todo/_todo.md"
+    },
+    {
+      "basename": "LLM-WIKI",
+      "path": "_notes/notes/llm-wiki/LLM-WIKI.md"
+    },
+    {
+      "basename": "SCHEMA Management",
+      "path": "_notes/_todo/SCHEMA Management.md"
+    },
+    {
+      "basename": "LLM Wiki with a Knowledge Graph",
+      "path": "_notes/notes/LLM Wiki with a Knowledge Graph.md"
+    },
+    {
+      "basename": "2026-05-12 GitFlow",
+      "path": "_inbox/2026-05-12 GitFlow.md"
+    },
+    {
+      "basename": "llm_wiki_arch",
+      "path": "_notes/notes/llm-wiki/llm_wiki_arch.canvas"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "dbt-unit-testing",
+      "path": "wiki/concepts/dbt-unit-testing.md"
+    },
+    {
+      "basename": "dbt-unit-tests",
+      "path": "wiki/concepts/dbt-unit-tests.md"
+    },
+    {
+      "basename": "thinkthinking-1-analyze-the-request-2026-05-09-175447",
+      "path": "wiki/queries/thinkthinking-1-analyze-the-request-2026-05-09-175447.md"
     },
     {
       "basename": "URL GitLab",
-      "path": "_notes/URL GitLab.md"
+      "path": "_notes/notes/URL GitLab.md"
     },
     {
       "basename": "JupyterLab Dev Env - Osservazioni Claude",
-      "path": "_notes/JupyterLab Dev Env - Osservazioni Claude.md"
+      "path": "_notes/notes/JupyterLab Dev Env - Osservazioni Claude.md"
     },
     {
       "basename": "dremio-mcp-server-production-readiness-2026-05-08",
@@ -25,24 +85,16 @@
       "path": "wiki/sources/airflow-vs-kestra.md"
     },
     {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
-    },
-    {
       "basename": "openmetadata-vs-alternatives",
       "path": "wiki/entities/openmetadata-vs-alternatives.md"
     },
     {
       "basename": "OpenCode in Ambiente di sviluppo",
-      "path": "_todos/OpenCode in Ambiente di sviluppo.md"
-    },
-    {
-      "basename": "LLM Wiki with a Knowledge Graph",
-      "path": "_notes/LLM Wiki with a Knowledge Graph.md"
+      "path": "_notes/_todo/OpenCode in Ambiente di sviluppo.md"
     },
     {
       "basename": "Self Service BI",
-      "path": "_todos/Self Service BI.md"
+      "path": "_notes/_todo/Self Service BI.md"
     },
     {
       "basename": "AI-Ready Data vs. Analytics-Ready Data",
@@ -147,54 +199,6 @@
     {
       "basename": "URL GitLab",
       "path": "_notes/dp/URL GitLab.md"
-    },
-    {
-      "basename": "2026-05-05 Meeting Interno",
-      "path": "_inbox/2026-05-05 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-05-04 Meeting Interno",
-      "path": "_inbox/2026-05-04 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-05-04 Meeting Seacom",
-      "path": "_inbox/2026-05-04 Meeting Seacom.md"
-    },
-    {
-      "basename": "pipeline-elt",
-      "path": "wiki/components/pipeline-elt.md"
-    },
-    {
-      "basename": "5 DuckDB GeoParquet Joins That Feel Instant",
-      "path": "raw/5 DuckDB GeoParquet Joins That Feel Instant.md"
-    },
-    {
-      "basename": "5-duckdb-geoparquet-joins-that-feel-instant",
-      "path": "wiki/sources/5-duckdb-geoparquet-joins-that-feel-instant.md"
-    },
-    {
-      "basename": "3-reasons-data-engineers-unsung-heroes-genai",
-      "path": "wiki/sources/3-reasons-data-engineers-unsung-heroes-genai.md"
-    },
-    {
-      "basename": "_classification",
-      "path": "wiki/sources/_classification.md"
-    },
-    {
-      "basename": "analisi-architettura",
-      "path": "wiki/sources/analisi-architettura.md"
-    },
-    {
-      "basename": "sintesi-architettura-claude",
-      "path": "wiki/sources/sintesi-architettura-claude.md"
-    },
-    {
-      "basename": "stack-cartografico",
-      "path": "wiki/components/stack-cartografico.md"
-    },
-    {
-      "basename": "modern-gis-stack",
-      "path": "wiki/sources/modern-gis-stack.md"
     }
   ],
   "omittedPaths": [],

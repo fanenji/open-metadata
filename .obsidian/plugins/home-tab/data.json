@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "_todos/_todos.md",
-      "timestamp": 1778350005713
+      "filepath": "purpose.md",
+      "timestamp": 1778597682327
     },
     {
-      "filepath": "_notes/URL GitLab.md",
-      "timestamp": 1778350002354
+      "filepath": "wiki/comparisons/geospatial-api-server-comparison.md",
+      "timestamp": 1778596552739
     },
     {
-      "filepath": "_notes/JupyterLab Dev Env - Osservazioni Claude.md",
-      "timestamp": 1778349950353
+      "filepath": "schema.md",
+      "timestamp": 1778596536522
     },
     {
-      "filepath": "wiki/queries/dremio-mcp-server-production-readiness-2026-05-08.md",
-      "timestamp": 1778341938479
+      "filepath": "README.md",
+      "timestamp": 1778596392888
     },
     {
-      "filepath": "wiki/index.md",
-      "timestamp": 1778341936465
+      "filepath": "wiki/sources/PROCESS.md",
+      "timestamp": 1778585377187
     }
   ],
   "bookmarkedFileStore": [],

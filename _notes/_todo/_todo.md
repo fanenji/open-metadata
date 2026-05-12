@@ -4,6 +4,7 @@
 - [ ] #processo Analisi approfondita GitFlow
 - [ ] #docs Diagramma State Machine del processo
 - [ ] #docs [[URL GitLab]]
+- [ ] #llm-wiki Copiare note da dp-wiki a dp-llm-wiki in cartella `_notes`
 
 # Varie
 - [ ] #ai prove installazione opencode su immagine dev-env (/Users/S.Parodi/Development/DP/dbt-image-creator)

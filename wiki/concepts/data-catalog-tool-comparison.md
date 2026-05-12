@@ -2,10 +2,10 @@
 type: concept
 title: Data Catalog Tool Comparison
 created: 2026-04-29
-updated: 2026-04-29
-tags: [data-catalog, comparison, evaluation, open-source]
-related: [datahub, openmetadata, amundsen, data-observability-definition, data-catalog-critique, data-mesh]
-sources: ["Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools.md"]
+updated: 2026-05-10
+tags: [data-catalog, comparison, evaluation, open-source, governance]
+related: [datahub, openmetadata, amundsen, data-observability-definition, data-catalog-critique, data-mesh, openmetadata-permission-limitations]
+sources: ["Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools.md", "permission-control-open-metadata-openmetadata-disc-20260510.md"]
 ---
 # Data Catalog Tool Comparison
 
@@ -38,11 +38,17 @@ The comparison assessed tools across the following dimensions:
 - Test case creation, deployment, scheduling, and execution
 - Failure acknowledgment and resolution workflows
 
-### Authorization (RBAC)
+### Authorization (RBAC) and Permission Control
 - Role and policy management
 - Team/group hierarchy support
 - Integration with external authentication providers
 - Fine-grained access control (platform vs. metadata permissions)
+- **Visibility control**: The ability to hide assets from unauthorized users, not just restrict access. [[openmetadata]] (pre-v1.6) cannot hide assets from the Explore tab, only restrict access. See [[openmetadata-permission-limitations]].
+- When evaluating tools, consider:
+  - Can the tool hide assets from the Explore tab / search results?
+  - Does it support Search-based RBAC?
+  - How does it handle tag-based visibility policies?
+  - What is the planned roadmap for permission improvements?
 
 ### Upgrade and Deployment
 - Kubernetes Helm chart quality
@@ -66,6 +72,18 @@ The comparison assessed tools across the following dimensions:
 | Upgrade Ease | Manual steps required | Automated migration jobs |
 | OSS Sustainability | Uncertain (SaaS focus) | Strong (community-driven) |
 
+> **Note on Permission Control:** [[OpenMetadata]] (pre-v1.6) cannot hide assets from the Explore tab, only restrict access. See [[openmetadata-permission-limitations]]. When evaluating tools, consider their visibility control capabilities.
+
 ## Key Takeaway
 
 The choice between OpenMetadata and DataHub depends on organizational priorities: governance and UX (OpenMetadata) vs. flexibility and community-driven development (DataHub). Amundsen is not recommended for new deployments.
+
+## Related Pages
+
+- [[openmetadata]] — Open-source metadata platform.
+- [[datahub]] — Event-based open-source metadata platform.
+- [[amundsen]] — Open-source data catalog (maintenance mode).
+- [[openmetadata-permission-limitations]] — Specific limitation in OpenMetadata's permission system.
+- [[data-observability-definition]]
+- [[data-catalog-critique]]
+- [[data-mesh]]

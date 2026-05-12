@@ -4,6 +4,19 @@ Obsidian vault documenting the Data Platform architecture, technologies, decisio
 
 See `schema.md` for page types, frontmatter requirements, naming conventions, and the contradiction workflow.
 
+The wiki is based on this OpenSource project: https://github.com/nashsu/llm_wiki and extends it with custom dirs and commands.
+
+The /raw/ and /wiki/ folders and purpose.md and schema.md files pertain to the llm-wiki system and are managed by the system.
+
+The \_inbox,\_notes and \_system older are personal folders managed with Obsidian and Claude/OpenCode agents.
+
+
+
+
+
+
+---
+
 ## Commands
 
 These slash commands are available in both `.claude/commands/` and `.opencode/commands/`.

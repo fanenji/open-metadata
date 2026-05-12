@@ -2,7 +2,7 @@
 type: entity
 title: OpenMetadata
 created: 2026-05-06
-updated: 2026-05-08
+updated: 2026-05-10
 tags:
   - metadata
   - metadata-management
@@ -45,6 +45,7 @@ related:
   - data-mesh-kpis
   - data-product-definition
   - federated-computational-governance
+  - openmetadata-permission-limitations
 sources:
   - announcing-openmetadata-1-13-20260506.md
   - "Cosa è Openmetadata Unified Knowledge Graph_.md"
@@ -56,6 +57,7 @@ sources:
   - Openmetadata Unified Knowledge Graph.md
   - OpenMetadata.md
   - research-data-mesh-organizational-maturity-assessment-2026-05-08.md
+  - permission-control-open-metadata-openmetadata-disc-20260510.md
 ---
 
 # OpenMetadata
@@ -169,6 +171,15 @@ In addition to over 100 pre‑built connectors, OpenMetadata supports custom int
 - **Open‑source future uncertain**: roadmap indicates increasing focus on SaaS (Collate)
 - **Authorization limitations**: does not yet support groups from external authentication providers
 - **Upgrade process**: requires manual steps and detailed documentation
+- **Permission visibility (pre-v1.6)**: unauthorized users can see asset existence in Explore even without access; search-based RBAC was planned for v1.6. See [[openmetadata-permission-limitations]] and the [[#Limitations]] section for details.
+
+## Limitations
+
+### Permission Control (pre-v1.6)
+
+OpenMetadata (pre-v1.6) cannot hide data assets from the Explore tab UI. Policies can restrict *access* to assets but not *visibility*. This means unauthorized users can see the existence of tables, databases, and other assets they cannot access. See [[openmetadata-permission-limitations]] for details.
+
+**Planned Solution:** Search-based RBAC was scheduled for OpenMetadata v1.6.
 
 ## Comparison
 
@@ -196,3 +207,4 @@ OpenMetadata is referenced in the [[data-mesh-maturity-assessment]] as a tool fo
 - [[data-mesh-kpis]]
 - [[data-product-definition]]
 - [[federated-computational-governance]]
+- [[openmetadata-permission-limitations]]
