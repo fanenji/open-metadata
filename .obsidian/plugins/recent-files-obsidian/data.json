@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "3 Reasons Data Engineers Are the Unsung Heroes of GenAI",
+      "path": "raw/sources/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md"
+    },
+    {
+      "basename": "2026-05-12 Riunione SEACOM - GitFlow",
+      "path": "_notes/03.meetings/2026-05-12 Riunione SEACOM - GitFlow.md"
+    },
+    {
+      "basename": "AI-Ready Data vs. Analytics-Ready Data",
+      "path": "raw/sources/AI-Ready Data vs. Analytics-Ready Data.md"
+    },
+    {
       "basename": "purpose",
       "path": "purpose.md"
     },
@@ -22,27 +34,23 @@
     },
     {
       "basename": "_todo",
-      "path": "_notes/_todo/_todo.md"
+      "path": "_notes/01.todo/_todo.md"
     },
     {
       "basename": "LLM-WIKI",
-      "path": "_notes/notes/llm-wiki/LLM-WIKI.md"
+      "path": "_notes/02.notes/llm-wiki/LLM-WIKI.md"
     },
     {
       "basename": "SCHEMA Management",
-      "path": "_notes/_todo/SCHEMA Management.md"
+      "path": "_notes/01.todo/SCHEMA Management.md"
     },
     {
       "basename": "LLM Wiki with a Knowledge Graph",
-      "path": "_notes/notes/LLM Wiki with a Knowledge Graph.md"
-    },
-    {
-      "basename": "2026-05-12 GitFlow",
-      "path": "_inbox/2026-05-12 GitFlow.md"
+      "path": "_notes/02.notes/LLM Wiki with a Knowledge Graph.md"
     },
     {
       "basename": "llm_wiki_arch",
-      "path": "_notes/notes/llm-wiki/llm_wiki_arch.canvas"
+      "path": "_notes/02.notes/llm-wiki/llm_wiki_arch.canvas"
     },
     {
       "basename": "AGENTS",
@@ -66,11 +74,11 @@
     },
     {
       "basename": "URL GitLab",
-      "path": "_notes/notes/URL GitLab.md"
+      "path": "_notes/02.notes/URL GitLab.md"
     },
     {
       "basename": "JupyterLab Dev Env - Osservazioni Claude",
-      "path": "_notes/notes/JupyterLab Dev Env - Osservazioni Claude.md"
+      "path": "_notes/02.notes/JupyterLab Dev Env - Osservazioni Claude.md"
     },
     {
       "basename": "dremio-mcp-server-production-readiness-2026-05-08",
@@ -90,15 +98,11 @@
     },
     {
       "basename": "OpenCode in Ambiente di sviluppo",
-      "path": "_notes/_todo/OpenCode in Ambiente di sviluppo.md"
+      "path": "_notes/01.todo/OpenCode in Ambiente di sviluppo.md"
     },
     {
       "basename": "Self Service BI",
-      "path": "_notes/_todo/Self Service BI.md"
-    },
-    {
-      "basename": "AI-Ready Data vs. Analytics-Ready Data",
-      "path": "_inbox/clippings/AI-Ready Data vs. Analytics-Ready Data.md"
+      "path": "_notes/01.todo/Self Service BI.md"
     },
     {
       "basename": "Best Practices",
@@ -195,10 +199,6 @@
     {
       "basename": "LLM Benhmark - quality summary",
       "path": "_notes/dp/LLM Benhmark - quality summary.md"
-    },
-    {
-      "basename": "URL GitLab",
-      "path": "_notes/dp/URL GitLab.md"
     }
   ],
   "omittedPaths": [],

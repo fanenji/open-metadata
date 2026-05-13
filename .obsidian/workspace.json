@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/_todo/_todo.md",
+                "file": "_notes/01.todo/_todo.md",
                 "mode": "source",
                 "source": false
               },
@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "purpose.md",
+                "file": "raw/sources/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "purpose"
+              "title": "3 Reasons Data Engineers Are the Unsung Heroes of GenAI"
             }
           }
         ],
@@ -147,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 249.5
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -225,13 +225,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "purpose.md",
+                "file": "raw/sources/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of purpose"
+              "title": "Outline of 3 Reasons Data Engineers Are the Unsung Heroes of GenAI"
             }
           },
           {
@@ -259,7 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 620.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,44 +276,43 @@
   },
   "active": "d7db9eacdcffd00d",
   "lastOpenFiles": [
+    "_notes/03.meetings/2026-05-12 Riunione SEACOM - GitFlow.md",
+    "_notes/03.meetings",
+    "raw/sources/AI-Ready Data vs. Analytics-Ready Data.md",
+    "_inbox/clippings/AI-Ready Data vs. Analytics-Ready Data.md",
+    "purpose.md",
     "wiki/comparisons/geospatial-api-server-comparison.md",
     "wiki/overview.md",
     "schema.md",
     "README.md",
     "wiki/sources/PROCESS.md",
-    "_notes/projects",
-    "_notes/archive",
+    "_notes/04.projects",
+    "_notes/90.archive",
     "_notes",
-    "_notes/_todo/_todo.md",
-    "_notes/notes/CI-CD GIT FLOW v2.0.md",
-    "_notes/notes/llm-wiki/LLM-WIKI.md",
-    "_notes/notes/llm-wiki",
-    "_notes/_todo/SCHEMA Management.md",
-    "_notes/notes/LLM Wiki with a Knowledge Graph.md",
-    "_inbox/2026-05-12 GitFlow.md",
-    "_notes/notes/llm-wiki/llm_wiki_arch.canvas",
+    "_notes/01.todo/_todo.md",
+    "_notes/02.notes/CI-CD GIT FLOW v2.0.md",
+    "_notes/02.notes/llm-wiki/LLM-WIKI.md",
+    "_notes/02.notes/llm-wiki",
+    "_notes/01.todo/SCHEMA Management.md",
+    "_notes/02.notes/LLM Wiki with a Knowledge Graph.md",
+    "_notes/02.notes/llm-wiki/llm_wiki_arch.canvas",
     "_inbox/2026-05-11 Inizio Installazione.md",
     "wiki/entities/openmetadata-permission-limitations.md",
     "wiki/sources/permission-control-open-metadata-openmetadata-disc-20260510.md",
     "raw/sources/permission-control-open-metadata-openmetadata-disc-20260510.md",
     "AGENTS.md",
-    "purpose.md",
     "CLAUDE.md",
     "_notes/llm_wiki_arch.md",
     "_notes/llm_wiki_arch.jpg",
     "wiki/concepts/dbt-unit-testing.md",
     "wiki/concepts/dbt-unit-tests.md",
     "wiki/queries/thinkthinking-1-analyze-the-request-2026-05-09-175447.md",
-    "_notes/notes/URL GitLab.md",
-    "_notes/notes/JupyterLab Dev Env - Osservazioni Claude.md",
-    "_inbox/2026-05-09 2005.md",
-    "wiki/queries/dremio-mcp-server-production-readiness-2026-05-08.md",
-    "_notes/notes/meeting",
+    "_notes/02.notes/URL GitLab.md",
+    "_notes/02.notes/meeting",
     "_notes/cartella senza nome",
     "_inbox/transcription/2026-04-16 Meeting Seacom_TRANSCRIPS.txt",
     "_inbox/transcription/2026-04-16 Meeting Seacom.mp4",
     "_inbox/transcription",
-    "_system/scripts/transcript.py",
     "_system/attachments/04_09_56.jpg",
     "_system/attachments/Pasted image 20260422201715.png",
     "_system/attachments/Pasted image 20260422203731.png",

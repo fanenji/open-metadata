@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "raw/sources/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md",
+      "timestamp": 1778656718218
+    },
+    {
+      "filepath": "_notes/03.meetings/2026-05-12 Riunione SEACOM - GitFlow.md",
+      "timestamp": 1778611596480
+    },
+    {
+      "filepath": "raw/sources/AI-Ready Data vs. Analytics-Ready Data.md",
+      "timestamp": 1778611592826
+    },
+    {
       "filepath": "purpose.md",
       "timestamp": 1778597682327
     },
     {
       "filepath": "wiki/comparisons/geospatial-api-server-comparison.md",
       "timestamp": 1778596552739
-    },
-    {
-      "filepath": "schema.md",
-      "timestamp": 1778596536522
-    },
-    {
-      "filepath": "README.md",
-      "timestamp": 1778596392888
-    },
-    {
-      "filepath": "wiki/sources/PROCESS.md",
-      "timestamp": 1778585377187
     }
   ],
   "bookmarkedFileStore": [],
