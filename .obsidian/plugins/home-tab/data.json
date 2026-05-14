@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "schema.md",
-      "timestamp": 1778699208394
+      "filepath": "wiki/overview.md",
+      "timestamp": 1778764429994
     },
     {
-      "filepath": "purpose.md",
-      "timestamp": 1778699206829
+      "filepath": "wiki/log.md",
+      "timestamp": 1778764429270
     },
     {
-      "filepath": "CLAUDE.md",
-      "timestamp": 1778699205323
+      "filepath": "wiki/index.md",
+      "timestamp": 1778764428548
     },
     {
-      "filepath": "AGENTS.md",
-      "timestamp": 1778699203830
+      "filepath": "wiki/synthesis/synthesis.md",
+      "timestamp": 1778764425425
     },
     {
-      "filepath": "README.md",
-      "timestamp": 1778687378756
+      "filepath": "wiki/sources/sources.md",
+      "timestamp": 1778764421797
     }
   ],
   "bookmarkedFileStore": [],
