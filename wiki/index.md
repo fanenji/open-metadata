@@ -1,13 +1,11 @@
+---
+type: index
+title: "Wiki Index"
+auto_generated: true
+---
+
 # Wiki Index
 
-## Entities
+> Questo file è aggiornato automaticamente dalle skill di ingest. Non modificare a mano.
 
-## Concepts
-
-## Sources
-
-## Queries
-
-## Comparisons
-
-## Synthesis
+_(Vuoto — esegui il primo ingest per popolare l'indice.)_

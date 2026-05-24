@@ -1,75 +1,76 @@
-# Wiki Schema
+# Schema
 
-## Page Types
+Regole strutturali della wiki. Le skill (ingest, lint) leggono questo file per decidere come classificare e validare le pagine.
 
-| Type | Directory | Purpose |
-|------|-----------|---------|
-| entity | wiki/entities/ | Named things (people, tools, organizations, datasets) |
-| concept | wiki/concepts/ | Ideas, techniques, phenomena, frameworks |
-| source | wiki/sources/ | Papers, articles, talks, books, blog posts |
-| query | wiki/queries/ | Open questions under active investigation |
-| comparison | wiki/comparisons/ | Side-by-side analysis of related entities |
-| synthesis | wiki/synthesis/ | Cross-cutting summaries and conclusions |
-| overview | wiki/ | High-level project summary (one per project) |
+## Tipi di pagina
 
-## Naming Conventions
+Ogni pagina markdown in `wiki/` deve avere frontmatter YAML con il campo `type`:
 
-- Files: `kebab-case.md`
-- Entities: match official name where possible (e.g., `openai.md`, `gpt-4.md`)
-- Concepts: descriptive noun phrases (e.g., `chain-of-thought.md`)
-- Sources: `author-year-slug.md` (e.g., `wei-2022-cot.md`)
-- Queries: question as slug (e.g., `does-scale-improve-reasoning.md`)
+| Type | Cartella | Cosa contiene |
+|---|---|---|
+| `entity` | `wiki/entities/` | Persone, organizzazioni, prodotti, luoghi — soggetti referenziabili |
+| `concept` | `wiki/concepts/` | Teorie, metodi, tecniche, framework — oggetti astratti |
+| `source` | `wiki/sources/` | Riassunto di un documento in `raw/sources/` |
+| `query` | `wiki/queries/` | Risposta salvata da chat o deep-research |
+| `synthesis` | `wiki/synthesis/` | Analisi trasversale fra più fonti / pagine |
 
-## Frontmatter
+## Frontmatter richiesto
 
-All pages must include YAML frontmatter:
+Tutte le pagine:
 
 ```yaml
 ---
-type: entity | concept | source | query | comparison | synthesis | overview
-title: Human-readable title
-tags: []
-related: []
+type: entity | concept | source | query | synthesis
+title: "Titolo umano"
 created: YYYY-MM-DD
-updated: YYYY-MM-DD
+updated: YYYY-MM-DD     # opzionale ma raccomandato
+tags: []                # opzionale
 ---
 ```
 
-Source pages also include:
+Per `source`:
+
 ```yaml
-authors: []
-year: YYYY
-url: ""
-venue: ""
+source_path: raw/sources/...       # path relativo
+source_sha256: <hash>              # cache invalidation
 ```
 
-## Index Format
+Per `query`:
 
-`wiki/index.md` lists all pages grouped by type. Each entry:
-```
-- [[page-slug]] — one-line description
-```
-
-## Log Format
-
-`wiki/log.md` records activity in reverse chronological order:
-```
-## YYYY-MM-DD
-
-- Action taken / finding noted
+```yaml
+origin: chat | deep-research
+query: "domanda originale"
 ```
 
-## Cross-referencing Rules
+## Naming convention
 
-- Use `[[page-slug]]` syntax to link between wiki pages
-- Every entity and concept should appear in `wiki/index.md`
-- Queries link to the sources and concepts they draw on
-- Synthesis pages cite all contributing sources via `related:`
+- File: kebab-case, lowercase. Es. `anthropic.md`, `transformer-architecture.md`.
+- Pagine sono **uniche per slug** — `entities/anthropic.md` e `concepts/anthropic.md` confliggono.
+- Wikilink risolti case-insensitive: `[[Anthropic]]` matcha `anthropic.md`.
 
-## Contradiction Handling
+## Workflow contraddizioni
 
-When sources contradict each other:
-1. Note the contradiction in the relevant concept or entity page
-2. Create or update a query page to track the open question
-3. Link both sources from the query page
-4. Resolve in a synthesis page once sufficient evidence exists
+Quando l'ingest produce un'affermazione che contraddice una pagina esistente:
+
+1. La skill **non sovrascrive** automaticamente.
+2. Aggiunge l'affermazione contraddittoria alla coda di review in `.llm-wiki/review/`.
+3. L'utente riceve un report al termine dell'ingest e decide cosa tenere.
+
+## File auto-gestiti
+
+Non modificare a mano (sono rigenerati dalle skill):
+
+- `wiki/index.md` — catalogo automatico
+- `wiki/log.md` — storico operazioni
+- `wiki/overview.md` — sintesi globale aggiornata da ingest
+
+## Personalizzazione
+
+Puoi:
+- Aggiungere nuovi tipi pagina (definisci qui type + cartella).
+- Aggiungere campi frontmatter custom (le skill li preservano).
+- Modificare le regole di naming (le skill leggono questo file ad ogni run).
+
+Non puoi (senza modificare le skill):
+- Cambiare la cartella `raw/sources/` (hardcoded nelle skill).
+- Cambiare il prefix `wiki/` (hardcoded nei controlli di sicurezza path).

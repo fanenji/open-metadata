@@ -1,10 +1,11 @@
 ---
 type: overview
-title: Project Overview
-tags: []
-related: []
+title: "Wiki Overview"
+auto_generated: true
 ---
 
 # Overview
 
-<!-- Provide a high-level summary of what this wiki covers and its current state. Update regularly as understanding deepens. -->
+> Sintesi globale della wiki. Rigenerata periodicamente dalla skill `wiki-ingest`.
+
+_(Vuoto — esegui il primo ingest per generare l'overview.)_

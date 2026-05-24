@@ -1,5 +1,9 @@
-# Research Log
+---
+type: log
+title: "Operations Log"
+auto_generated: true
+---
 
-## 2026-05-13
+# Operations Log
 
-- Project created
+> Storico append-only delle operazioni delle skill (ingest, lint, deep-research).

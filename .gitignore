@@ -1,6 +1,37 @@
-# OS files
+# State interno (rigenerabile)
+.llm-wiki/queue/
+.llm-wiki/ingest-cache/
+.llm-wiki/chats/
+.llm-wiki/review/
+.llm-wiki/qmd-index.sqlite
+.llm-wiki/qmd-index.sqlite-*
+.llm-wiki/*.log
+
+# Secrets locali
+.llm-wiki/secrets.json
+.env
+.env.local
+
+# OpenCode
+.opencode/node_modules/
+
+# OS / editor
 .DS_Store
 Thumbs.db
+*.swp
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Node (se installi qmd in locale anziché globale)
+node_modules/
 
 # Video / audio
 *.mp4
@@ -12,26 +43,8 @@ Thumbs.db
 *.wav
 *.m4a
 
-# Internal tooling state
-.llm-wiki/
-
-# OpenCode
-.opencode/node_modules/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-.venv/
-venv/
-
 # Editor
 .vscode/
-
-# Logs and tmp
-*.log
-.DS_Store
 
 # SSH keys and certificates
 *.ppk
