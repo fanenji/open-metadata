@@ -80,6 +80,38 @@ Tutte le skill sono **portabili**: il loro stato risiede in `.claude/skills/<nom
 - Account [Tavily](https://tavily.com) → `deep-research` (senza, fallback su DuckDuckGo)
 - `ffmpeg` (`brew install ffmpeg`) + `mlx-whisper` (`pip install mlx-whisper`) → `transcript` (richiede macOS Apple Silicon)
 
+## Configurazione
+
+### Tavily API key (deep-research)
+
+`deep-research` usa Tavily di default e DuckDuckGo come fallback automatico. Senza chiave funziona già (con qualità inferiore). Per abilitare Tavily:
+
+```bash
+# Opzione A — file secrets (già in .gitignore, creato da init-vault.sh)
+# Apri .llm-wiki/secrets.json e inserisci la chiave:
+{ "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxx" }
+
+# Opzione B — variabile d'ambiente (aggiungi al tuo .zshrc / .bashrc)
+export TAVILY_API_KEY="tvly-xxxxxxxxxxxxxxxx"
+```
+
+La variabile d'ambiente ha precedenza su `secrets.json`. Non committare mai la chiave.
+
+### QMD — primo avvio
+
+Al primo `qmd embed` (eseguito da `init-vault.sh`) e alla prima `qmd query`, QMD scarica due modelli GGUF (~400 MB totali). Richiede connessione stabile e qualche minuto.
+
+**Se il download va in timeout:**
+
+```bash
+# Rilancia embed finché completa (idempotente)
+qmd embed --db .llm-wiki/qmd-index.sqlite
+
+# Per le query nel frattempo, salta il secondo modello con --no-rerank
+# (usa RRF scoring — risultati leggermente meno precisi ma funzionanti)
+qmd query "domanda" --db .llm-wiki/qmd-index.sqlite --no-rerank --json -n 8
+```
+
 ## Modello operativo
 
 Le skill chiamano l'LLM **attraverso l'agente che le invoca** (Claude Code, OpenCode, ecc.): gli script Python si occupano di I/O, preprocessing documenti, parsing strutturato dell'output LLM, gestione cache/coda. Nessuna API key LLM da configurare nel template.
