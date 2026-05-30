@@ -5,6 +5,46 @@
       "path": "_notes/01.todo/01.todo.md"
     },
     {
+      "basename": "bot-authentication",
+      "path": "wiki/concepts/bot-authentication.md"
+    },
+    {
+      "basename": "Utente per meta-sourcer",
+      "path": "_notes/02.notes/Utente per meta-sourcer.md"
+    },
+    {
+      "basename": "99 System",
+      "path": "99 System/99 System.md"
+    },
+    {
+      "basename": "utente-read-only-servizi-database-2026-05-29",
+      "path": "wiki/queries/utente-read-only-servizi-database-2026-05-29.md"
+    },
+    {
+      "basename": "how-to-ingest-dbt-custom-properties-2026-05-25-140121",
+      "path": "wiki/queries/how-to-ingest-dbt-custom-properties-2026-05-25-140121.md"
+    },
+    {
+      "basename": "default-organization-policy",
+      "path": "wiki/concepts/default-organization-policy.md"
+    },
+    {
+      "basename": "viewbasic-viewall-operations",
+      "path": "wiki/concepts/viewbasic-viewall-operations.md"
+    },
+    {
+      "basename": "authorization-policies",
+      "path": "wiki/concepts/authorization-policies.md"
+    },
+    {
+      "basename": "Users & Roles Management",
+      "path": "_notes/02.notes/Users & Roles Management.md"
+    },
+    {
+      "basename": "ingest-custom-properties-from-dbt-openmetadata-cus-20260514",
+      "path": "raw/sources/ingest-custom-properties-from-dbt-openmetadata-cus-20260514.md"
+    },
+    {
       "basename": "llm-wiki",
       "path": "_notes/02.notes/llm-wiki/llm-wiki.md"
     },

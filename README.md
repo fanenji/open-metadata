@@ -1,149 +1,113 @@
-# LLM Wiki Template
+# OpenMetadata LLM Wiki
 
-Vault Obsidian preconfigurata per essere gestita come knowledge base **LLM-driven**, ispirata dal progetto [llm_wiki](https://github.com/nashsu/llm_wiki). Le funzionalità (ingest, chat, lint, deep-research, transcript, graph-analyze) sono implementate come **Agent Skills** invocabili da Claude Code, OpenCode, Pi e qualsiasi altro client compatibile, oppure direttamente da shell tramite gli script Python in `.claude/skills/*/scripts/`.
+Obsidian vault about the documentation of the OpenMetadata software system: https://docs.open-metadata.org/  
 
-Il retrieval (search lessicale + semantico + reranking) è delegato a [QMD](https://github.com/tobi/qmd), un motore di ricerca locale che indicizza la cartella `wiki/`.
+Managed via LLM-based tooling.
 
-## Come usarlo come template
+The vault is divided in 2 parts:
+- The LLM Wiki part
+- The personal part
 
-```bash
-# 1a. Copia la cartella in una nuova posizione
-cp -r /path/to/llm-wiki-template /path/to/my-new-wiki 
-# 1b. Oppure clona il repository
-git clone https://github.com/fanenji/vault-template.git
-# 2. Spostati sulla nuova dir
-cd /path/to/my-new-wiki
+## LLM Wiki Part
 
-# 3. Setup dipendenze (markitdown, qmd, duckduckgo-search) e indice iniziale
-bash _system/scripts/init-vault.sh
+The wiki is based on this OpenSource project: https://github.com/nashsu/llm_wiki
 
-# 4. Apri la cartella in Obsidian (oppure ignora Obsidian e usa solo CLI/agente)
-```
+See `schema.md` for page types, frontmatter requirements, naming conventions, and the contradiction workflow.
 
-## Struttura
+See `purpose.md` for `<TODO>`
 
-```
-.
-├── purpose.md          # Definisci gli obiettivi e lo scope della wiki
-├── schema.md           # Regole strutturali (tipi pagina, frontmatter, naming)
-├── raw/sources/        # Documenti originali (immutabili)
-├── wiki/               # Pagine generate dall'LLM (Obsidian vault)
-│   ├── index.md        # Catalogo pagine
-│   ├── log.md          # Storico operazioni
-│   ├── overview.md     # Sintesi globale (aggiornata da ingest)
-│   ├── entities/       # Persone, organizzazioni, prodotti
-│   ├── concepts/       # Teorie, metodi, tecniche
-│   ├── sources/        # Riassunti delle fonti
-│   ├── queries/        # Risposte salvate da chat e deep-research
-│   └── synthesis/      # Analisi trasversali fra più fonti
-├── _inbox/             # Bucket per materiale in ingresso (clippings, journal, transcription)
-├── _notes/             # Note personali fuori dalla wiki knowledge base
-├── .llm-wiki/          # Stato interno (queue ingest, cache SHA256, indice QMD)
-├── .claude/
-│   ├── skills/         # Skill richiamabili da Claude Code / OpenCode / Pi
-│   │   ├── wiki-query/
-│   │   ├── wiki-lint/
-│   │   ├── wiki-ingest/
-│   │   ├── deep-research/
-│   │   ├── transcript/
-│   │   └── graph-analyze/
-│   └── commands/       # Slash command thin wrapper (es. /wiki-query)
-├── .opencode/          # Mirror (symlink) per OpenCode
-└── _system/            # Configurazione Obsidian + script vault
-    ├── canvas/         # File .canvas (visual whiteboards, da popolare manualmente)
-    ├── templates/      # Template Obsidian (da popolare manualmente)
-    └── scripts/
-        └── init-vault.sh
-```
+The /raw/ and /wiki/ folders and purpose.md and schema.md files pertain to the llm-wiki system and are managed by the LLM-Wiki system.
 
-## Skill disponibili
+The `.llm-wiki/` directory contains internal tooling state (LanceDB, ingest queues, conversation history). These are managed automatically; do not modify directly unless you understand the full toolchain.
 
-| Skill | Cosa fa | Slash command |
-|---|---|---|
-| `wiki-query` | Cerca nella wiki via QMD e risponde a una domanda con citazioni `[[wikilink]]` | `/wiki-query` |
-| `wiki-lint` | Audit della wiki: orphan, broken-link, frontmatter, contraddizioni semantiche | `/wiki-lint` |
-| `wiki-ingest` | Ingest 2-step (analisi → generazione) di documenti da `raw/sources/` con cache SHA256 e coda persistente | `/wiki-ingest`, `/inbox-ingest` |
-| `deep-research` | Ricerca web multi-query (Tavily + DuckDuckGo fallback) → sintesi → auto-ingest | `/deep-research` |
-| `transcript` | Trascrizione audio/video locale via `mlx_whisper` con summary opzionale via LLM | `/transcript` |
-| `graph-analyze` | Analisi del grafo wiki (nodi/edge/densità/orfani/hub) con report in `_notes/` | `/graph-analyze` |
+## Personal Part
 
-Tutte le skill sono **portabili**: il loro stato risiede in `.claude/skills/<nome>/`, sono in markdown standard, e gli script Python in `scripts/` sono eseguibili indipendentemente da qualsiasi agente.
+This part extends the base LLM Wiki part with custom dir and commands.
 
-## Requisiti
+The `_inbox`,`_notes` and `_system` folder are personal folders managed with the help of Claude/OpenCode agents.
 
-**Core** (installati automaticamente da `_system/scripts/init-vault.sh`):
-- Python 3.10+ con `markitdown[all]` — preprocessing documenti per `wiki-ingest`
-- Python `duckduckgo-search` — fallback web search per `deep-research`
-- Node.js 18+ con `@tobilu/qmd` (installato globalmente) — motore di retrieval
+Key conventions for operating in the personal folders:
+- Notes use YAML frontmatter
+- Cross-links use [[wikilink]] syntax
+- Templater plugin is used for auto-insertion
+- Do not assume plugin capabilities without checking documentation first
+- Use the Obsidian CLI whenever possible
 
-**Opzionali** (solo se usi le skill relative):
-- Account [Tavily](https://tavily.com) → `deep-research` (senza, fallback su DuckDuckGo)
-- `ffmpeg` (`brew install ffmpeg`) + `mlx-whisper` (`pip install mlx-whisper`) → `transcript` (richiede macOS Apple Silicon)
+This is the hierarchy of the personal folders
+- `_inbox/` - Inbox for new, unsorted items
+	- `_inbox/clippings` - Clipping from web pages via Obsidian Web Clipper
+	- `_inbox/Journal` - Temporary location for daily and journal notes
+	- `_inbox/transcription` - Location for audio/video transcriptions made with the `/transcript` command
+- `_notes/` - Notes personally redacted about projects, meetings and todos
+	- `_notes/01.todo` — Active task and to-do tracking with Kanban view
+	- `_notes/02.notes` — Work and operational notes
+	- `_notes/03.meetings` — Notes about meetings
+	- `_notes/04.projects` — Notes about active working projects
+	- `_notes/90.archive` — Notes about archived projects
+ - `_system/` - Obsidian system config, attachments, templates, canvas files
+	 - `_system/scripts` - Contains custom scripts for managing the vault
+	 - `_system/templates` - Obsidian note templates, do not move
 
-## Configurazione
 
-### Tavily API key (deep-research)
+## RULES
+- NEVER delete files without explicit confirmation.
 
-`deep-research` usa Tavily di default e DuckDuckGo come fallback automatico. Senza chiave funziona già (con qualità inferiore). Per abilitare Tavily:
+----
 
-```bash
-# Opzione A — file secrets (già in .gitignore, creato da init-vault.sh)
-# Apri .llm-wiki/secrets.json e inserisci la chiave:
-{ "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxx" }
+## Git Workflow
 
-# Opzione B — variabile d'ambiente (aggiungi al tuo .zshrc / .bashrc)
-export TAVILY_API_KEY="tvly-xxxxxxxxxxxxxxxx"
-```
+The **obsidian-git** plugin commit and sync on demand with the message format `vault backup: {{date}} - {{hostname}}`. Manual git operations are fine but avoid force-pushing or rebasing since the vault may be open on another device simultaneously. When committing manually, use descriptive messages.
 
-La variabile d'ambiente ha precedenza su `secrets.json`. Non committare mai la chiave.
+---
 
-### QMD — primo avvio
+## Available skills  
+  
+Skills loaded in `.claude/skills/`:  
+- `obsidian-markdown` — Obsidian native syntax (ALWAYS use)  
+- `obsidian-bases` — databases via .base  
+- `json-canvas` — visual whiteboards  
+- `obsidian-cli` — automation via obsdmd command  
+- `defuddle` — clean web content extraction  
+  
+Before creating `.canvas` or `.base` files, consult the corresponding skill.  
+Before fetching a URL, consult `defuddle`.
 
-Al primo `qmd embed` (eseguito da `init-vault.sh`) e alla prima `qmd query`, QMD scarica due modelli GGUF (~400 MB totali). Richiede connessione stabile e qualche minuto.
 
-**Se il download va in timeout:**
+---
+## Commands
 
-```bash
-# Rilancia embed finché completa (idempotente)
-qmd embed --db .llm-wiki/qmd-index.sqlite
+Defined in `.claude/commands/` (Claude) and `.opencode/commands/` (OpenCode), backed by Python scripts in `_system/scripts/`.
 
-# Per le query nel frattempo, salta il secondo modello con --no-rerank
-# (usa RRF scoring — risultati leggermente meno precisi ma funzionanti)
-qmd query "domanda" --db .llm-wiki/qmd-index.sqlite --no-rerank --json -n 8
-```
 
-## Modello operativo
+| Command                           | Purpose                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------- |
+| `/transcript [<file>]`            | Transcribe audio/video files from `_inbox/transcription/` with mlx_whisper                   |
+| `/wiki-lint`                      | Seven-check health audit; writes `wiki/lint-report.md`                                       |
+| `/graph-analyze [--console-only]` | Directed graph analysis of wiki link structure; writes `_notes/graph-analysis-YYYY-MM-DD.md` |
+| `/wiki-qwery`                     | Search the vault and answer a question using accumulated knowledge                           |
 
-Le skill chiamano l'LLM **attraverso l'agente che le invoca** (Claude Code, OpenCode, ecc.): gli script Python si occupano di I/O, preprocessing documenti, parsing strutturato dell'output LLM, gestione cache/coda. Nessuna API key LLM da configurare nel template.
 
-Per dettagli sull'architettura di ogni skill leggi `SKILL.md` nella relativa cartella.
+### `/transcript [<filename>] [--lang it|en] [--summary]`
 
-## TODO / Future work
+Transcribe audio/video files from `_inbox/transcription/` using mlx_whisper. Supported formats: `.mp4`, `.mov`, `.mkv`, `.webm`, `.avi`, `.mp3`, `.m4a`, `.wav`, `.ogg`, `.aac`, `.flac`.
 
-Funzionalità del backend originale `llm_wiki` non ancora portate nel template.
+- `<filename>` — transcribe only that file (omit to transcribe all pending files)
+- `--lang` — language code for whisper (auto-detect if not set)
+- `--summary` — after transcription, generate a structured summary (`_SUMMARY.txt`). Meeting content uses Italian format with sections for decisions and action items; general content uses English format with entities and notable quotes.
 
-### Multimodal — image extraction & captioning
+### `/wiki-lint [--fix] [--report-only] [--section <name>]`
 
-Il backend originale Tauri estrae immagini embedded da PDF/PPTX/DOCX in `wiki/media/<source-slug>/` (via pdfium-render lato Rust) e le caption con un modello VLM, popolando una cache SHA256-keyed in `.llm-wiki/image-caption-cache.json`. Le caption arricchiscono il testo passato all'LLM di ingest, migliorando la sintesi e preservando i riferimenti `![](path)` nelle pagine wiki generate.
+Full health check on the wiki. Runs seven checks: missing pages, orphans, frontmatter completeness, source integrity, contradictions, glossary gaps, and index counts.
 
-**Stato nel template**: NON implementato. La skill `wiki-ingest` salta interamente questo step — le immagini embedded vengono ignorate e i riferimenti `![](url)` strippati dal testo passato al pipeline a 2 step.
+- `--fix` — create stub pages for missing wikilinks, fix frontmatter issues
+- `--report-only` — print to console only, skip writing `wiki/lint-report.md`
+- `--section <name>` — run a single check: `orphans`, `missing`, `frontmatter`, `contradictions`, `glossary`, `sources`
 
-**Per portarlo servono**:
-- Estrazione PDF: `pdfimages` (Poppler) o `pdfplumber.images`, oppure `pymupdf` per qualità superiore.
-- Estrazione DOCX: `python-docx` espone `document.part.related_parts` con i blob immagine.
-- Estrazione PPTX: `python-pptx` con `slide.shapes` filtrati per `MSO_SHAPE_TYPE.PICTURE`.
-- Captioning VLM: chiamate a un modello con vision (GPT-4o, Claude Opus 4.X, Gemini 2.5, ecc.) — anche qui delegato all'agente che invoca la skill, oppure script che parla a un endpoint locale (es. LLaVA via Ollama).
-- Cache SHA256 sulle immagini per dedup cross-source (es. logo aziendale che ricorre in 30 PDF caption una volta sola).
+### `/graph-analyze [--console-only]`
 
-**Punti di estensione previsti**:
-- `_system/scripts/wiki-ingest/scripts/_image_extract.py` (da creare)
-- `_system/scripts/wiki-ingest/scripts/_image_caption.py` (da creare)
-- Update `SKILL.md` di `wiki-ingest` con Step 2.5 (extract) e 2.6 (caption) prima dello Step 3 (analysis).
-- Cache file `.llm-wiki/image-caption-cache.json`.
+Analyze the wiki as a directed graph (pages = nodes, `[[wikilinks]]` = edges). Computes node/edge counts, degree, density, orphans, sinks, broken links, and top-10 hubs.
 
-### Altri TODO minori
+- `--console-only` — print to console only, skip writing `_notes/graph-analysis-YYYY-MM-DD.md`
 
-- **Vector store custom dell'ingest** (LanceDB) — sostituito interamente da QMD nel template. La feature "dedup semantico durante ingest" via QMD `vsearch` è documentata nelle skill ma può essere migliorata.
-- **Provider web search aggiuntivi** — backend originale supporta anche SerpApi e SearXNG. `web_search.py` può essere esteso facilmente.
-- **Coda concorrente** — la `queue.py` corrente è single-task. Per ingest batch paralleli serve concurrency control.
-- **Review queue UI** — il backend originale ha una review queue interattiva. Nel template le `REVIEW` blocks sono estratte da `finalize.py` ma ad oggi vengono solo riportate all'utente nella conversazione; non c'è uno store persistente.
+----
+

@@ -40,14 +40,15 @@ EXCLUDED_NAMES = {"index.md", "log.md"}
 # Required frontmatter fields per type — derivabile da schema.md ma
 # replicato qui per non dover parsare schema.md ad ogni run.
 REQUIRED_FIELDS_BY_TYPE = {
-    "entity":    ["type", "title", "created"],
-    "concept":   ["type", "title", "created"],
-    "source":    ["type", "title", "created", "source_path"],
-    "query":     ["type", "title", "created"],
-    "synthesis": ["type", "title", "created"],
+    "entity":     ["type", "title", "created"],
+    "concept":    ["type", "title", "created"],
+    "source":     ["type", "title", "created"],
+    "query":      ["type", "title", "created"],
+    "synthesis":  ["type", "title", "created"],
+    "comparison": ["type", "title", "created"],
 }
 
-VALID_TYPES = set(REQUIRED_FIELDS_BY_TYPE.keys()) | {"index", "log", "overview"}
+VALID_TYPES = set(REQUIRED_FIELDS_BY_TYPE.keys()) | {"index", "log", "overview", "comparison"}
 
 
 # ── Modelli ───────────────────────────────────────────────────────────────────

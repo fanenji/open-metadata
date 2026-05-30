@@ -1,0 +1,1 @@
+{"path":"99 System/attachments/Pasted image 20260529094553.png","text":"DatabaseMetadata - ViewAll-Rule Description: Rule che permette la lettura dei metadati dalle sorgenti relazionall. Utilizzata da service account per modulo meta-sourcer Resources: Database, Database Schema, Database Service, Table Operations: ViewAll Effect Allow","libVersion":"0.5.0","langs":"eng"}

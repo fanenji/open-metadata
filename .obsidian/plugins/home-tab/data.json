@@ -25,23 +25,23 @@
   "recentFilesStore": [
     {
       "filepath": "_notes/01.todo/01.todo.md",
-      "timestamp": 1779722027843
+      "timestamp": 1780076007964
     },
     {
-      "filepath": "_notes/02.notes/llm-wiki/llm-wiki.md",
-      "timestamp": 1779722025873
+      "filepath": "wiki/concepts/bot-authentication.md",
+      "timestamp": 1780056775024
     },
     {
-      "filepath": "README.md",
-      "timestamp": 1779722023130
+      "filepath": "_notes/02.notes/Utente per meta-sourcer.md",
+      "timestamp": 1780056763121
     },
     {
-      "filepath": "wiki/comparisons 2/comparisons 2.md",
-      "timestamp": 1779721952358
+      "filepath": "99 System/99 System.md",
+      "timestamp": 1780056759231
     },
     {
-      "filepath": "wiki/concepts 2/concepts 2.md",
-      "timestamp": 1779721943549
+      "filepath": "wiki/queries/utente-read-only-servizi-database-2026-05-29.md",
+      "timestamp": 1780049427488
     }
   ],
   "bookmarkedFileStore": [],

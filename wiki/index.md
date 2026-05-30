@@ -1,11 +1,213 @@
 ---
-type: index
-title: "Wiki Index"
-auto_generated: true
+type: overview
+title: Wiki Index
+tags: []
+related: []
 ---
-
 # Wiki Index
 
-> Questo file è aggiornato automaticamente dalle skill di ingest. Non modificare a mano.
+## Entities
 
-_(Vuoto — esegui il primo ingest per popolare l'indice.)_
+- [[openmetadata]] — Open-source metadata platform for data discovery, lineage, quality, and governance.
+- [[ingestion-framework]] — The backbone for moving metadata from source systems into OpenMetadata.
+- [[omjob-operator]] — Kubernetes operator managing ingestion pipelines via CRDs (OMJob, CronOMJob).
+- [[pipeline-service-client]] — Configuration component interfacing with the orchestration backend (K8s or Airflow).
+- [[kubernetes]] — Container orchestration platform used as infrastructure for OpenMetadata deployments.
+- [[helm-charts]] — Kubernetes package manager; OpenMetadata provides official Helm Charts for deployment.
+- [[nfs-subdir-external-provisioner]] — Kubernetes external provisioner for dynamic RWX PersistentVolume creation from NFS shares.
+- [[rest-api-connector]] — Beta connector for ingesting metadata from REST APIs using OpenAPI specifications.
+- [[openmetadata-code-layout]] — Directory structure, build tooling, and architectural components of the OpenMetadata repository.
+- [[dropwizard]] — Java REST API framework used by OpenMetadata for its backend services.
+- [[flyway]] — Database migration tool managing versioned schema changes for the metadata catalog.
+- [[swagger]] — API documentation tool generating OpenAPI-compliant docs from REST resource definitions.
+- [[google-oauth]] — Default authentication provider; validates JWT tokens for incoming API requests.
+- [[mysql-8x]] — Relational database (MySQL 8.x) used as the primary transactional metadata store for OpenMetadata.
+- [[elasticsearch-7x]] — Search engine (ElasticSearch 7.x) used to index metadata and power full-text search and activity feeds.
+- [[jsonschemas]] — JSON Schema definitions that serve as the single source of truth for all metadata entity structures.
+- [[jetty]] — Embedded Java HTTP server and servlet container bundled within Dropwizard for OpenMetadata's REST APIs.
+- [[persona]] — Named role profile defining a customized user experience including landing page layout, pluggable panels, and multi-persona switching capability.
+- [[snowflake]] — Cloud data warehouse platform; used as the reference example in the official metadata ingestion workflow documentation.
+- [[team-types]] — Classification of teams (Organization, BusinessUnit, Division, Department, Group) with hierarchy rules, parent constraints, and data asset ownership capabilities.
+- [[data-steward-role]] — Governance-focused role for managing glossaries, glossary terms, and editing descriptions/tags on all entities.
+- [[serviceowner-role]] — Custom role pattern delegating service creation and ingestion pipeline management to non-Admin users.
+- [[data-consumer-role]] — Default role for data collaboration; exact permissions and relationship to Organization Policy are open questions.
+- [[metadata-cli]] — Command-line tool for triggering and managing ingestion pipelines; provides the `metadata ingest` command.
+- [[permission-debugger]] — Diagnostic UI tool for simulating permission checks on users, resources, and operations; provides detailed evaluation summaries for troubleshooting access issues in the RBAC-ABAC system.
+- [[mcp-server]] — Built-in application exposing OpenMetadata's unified metadata graph to AI assistants via the Model Context Protocol (MCP).
+- [[dbt]] — Data Build Tool; a data transformation tool that generates JSON artifact files ingested by OpenMetadata for lineage, documentation, and data quality.
+- [[application-framework]] — Pluggable system (Settings → Applications) for embedding tools like MCP Server, Data Insights, and Search Indexing directly into the OpenMetadata server.
+- [[personal-access-token]] — JWT-based authentication token embedding user identity and permissions; primary auth mechanism for MCP server and CLI/API automation.
+- [[oracle-connector]] — Turnkey connector for ingesting metadata from Oracle databases (12c, 18c, 19c, 21c); covers permission models, `python-oracledb` driver, and schema-level SELECT limitation.
+- [[postgresql-connector]] — Turnkey connector for ingesting metadata from PostgreSQL databases; covers requirements, SSL modes, IAM authentication, stored procedure lineage, and `pg_stat_statements` limitations.
+- [[superset-connector]] — Turnkey dashboard connector for ingesting metadata from Apache Superset (2.0.0+); supports API and database extraction methods, SSL configuration, and dashboard-to-table lineage.
+- [[glossary-terms]] — Business metadata classification objects that can be applied to data assets; supports tag propagation where associated tags are automatically applied.
+- [[powerbi-connector]] — Turnkey dashboard connector for ingesting metadata from Microsoft Power BI; covers troubleshooting scenarios including Workflow Deployment Error, Debug Logging, and Permission Issues.
+- [[hierarchy-view]] — UI feature that organizes data assets in a structured, layered manner based on relationships and dependencies for hierarchical data discovery.
+- [[announcements]] — Scheduled, time-bound notifications about upcoming changes to data assets, displayed as banners and in the Activity Feed.
+
+## Concepts
+
+- [[data-profiling]] — Analyzing data to understand its structure, content, and quality.
+- [[data-lineage]] — Tracking the origin and transformation of data.
+- [[data-quality]] — Defining and running tests to ensure data reliability.
+- [[glossary-tags]] — Business metadata for classifying and organizing data assets.
+- [[unified-metadata-graph]] — Core architectural concept; a single graph database organizing all ingested metadata.
+- [[openmetadata-connectors]] — The library of 90+ turnkey connectors for metadata ingestion.
+- [[openmetadata-features]] — Comprehensive overview of all OpenMetadata feature categories.
+- [[openmetadata-collaboration]] — Native collaboration features for team communication and task management.
+- [[openmetadata-insights]] — Analytics and reporting capabilities for data estate management.
+- [[kubernetes-native-orchestrator]] — Running ingestion pipelines as native K8s Jobs/CronJobs, eliminating Airflow dependency.
+- [[on-premises-kubernetes-deployment]] — Deploying OpenMetadata on self-managed Kubernetes with external dependencies and NFS storage.
+- [[external-dependencies-configuration]] — Configuring external MySQL/PostgreSQL and ElasticSearch/OpenSearch for OpenMetadata on K8s.
+- [[airflow-storage-requirements]] — Understanding and addressing the ReadWriteMany volume requirement for Airflow in K8s deployments.
+- [[airflow-to-kubernetes-migration]] — Step-by-step procedure for migrating ingestion pipelines from Airflow to the K8s-native orchestrator, including caveats and rollback.
+- [[ingestion-pipeline-troubleshooting]] — Consolidated reference for diagnosing and resolving common ingestion pipeline failures in K8s-native mode.
+- [[exit-handler-guarantee]] — Explanation of pipeline completion/failure callback reliability and why the OMJob Operator ensures it.
+- [[openapi-specification]] — Standard interface description for REST APIs; the schema format required by the REST API Connector.
+- [[kubernetes-namespaces]] — Logical partitions for scoping resources and policies; best practices for production isolation, environment separation, and OpenMetadata deployment.
+- [[resource-quotas-limit-ranges]] — Paired Kubernetes policies capping namespace resource consumption and enforcing per-container defaults; critical for production governance.
+- [[namespace-rbac]] — Role-Based Access Control patterns for production namespaces, including OMJob Operator service account permissions and least-privilege principles.
+- [[schema-first-approach]] — Core architectural principle: metadata models defined in JSON Schema drive code generation for Java and Python.
+- [[change-events-system]] — Event capture mechanism (ContainerResponseFilter → DB + Elasticsearch) powering activity feeds, search, and observability.
+- [[pull-based-ingestion-model]] — Design decision where OpenMetadata actively pulls metadata from sources on a schedule rather than receiving push events.
+- [[openmetadata-system-architecture]] — Official high-level architecture overview identifying the four core dependencies: JSON Schemas, Dropwizard/Jetty, MySQL 8.x, and ElasticSearch 7.x.
+- [[openmetadata-administration]] — Comprehensive overview of administrative capabilities: Roles & Policies, Teams & Users, Services, Notifications, Custom Properties, Data Insights, Audit Logs, Permission Debugger, Persona customization, Reindexing, and CLI ingestion.
+- [[roles-and-policies]] — Access control mechanisms to define and enforce permissions across the organization; integrates with Teams for hierarchical policy assignment.
+- [[teams-and-users]] — Hierarchical groupings of users for streamlined onboarding, collaboration, and access management; supports multi-Administrator model.
+- [[data-observability-alerts]] — Fine-grained alerts for schema changes, pipeline failures, and data quality issues, sent to multiple destinations.
+- [[custom-properties]] — Mechanism to extend data models with additional metadata fields tailored to organizational needs.
+- [[audit-logs]] — Records of platform activities for compliance and security review; provides accountability and traceability.
+- [[permission-debugger]] — Diagnostic tool for troubleshooting access permission issues by tracing effective permissions for users and teams.
+- [[persona-and-landing-page-customization]] — Ability to tailor the user interface and experience based on user roles or preferences; hierarchical relationship: Persona → Landing Page → Pluggable Panels.
+- [[reindexing-search]] — Maintenance operation to rebuild the Elasticsearch/OpenSearch search index from the transactional database; includes symptom checklist, UI procedure, Recreate Indexes toggle, nine configurable parameters with best practices, and high-performance starting configuration.
+- [[cli-ingestion-with-basic-auth]] — Alternative ingestion method using JWT token authentication for automation or environments without OAuth; provides full procedural steps.
+- [[pluggable-panels]] — Modular UI widget system composing the customizable landing page; panels include Activity Feed, KPIs, Announcements, Tasks, and Recently Viewed.
+- [[role-based-ui-customization]] — Mechanism that tailors the platform interface and functionality based on the user's assigned organizational role, implemented through Personas; supports multi-persona switching as a key differentiator from simpler role-based systems.
+- [[metadata-ingestion-workflow]] — The canonical 8-step UI-driven process for ingesting metadata from third-party sources into OpenMetadata.
+- [[metadata-agent]] — Configurable, schedulable pipeline that extracts metadata from a connected source and ingests it into OpenMetadata; supports filter patterns, toggles, and retries.
+- [[service-connection]] — A configured link between OpenMetadata and an external data source, encapsulating credentials and connection details; the prerequisite for all ingestion.
+- [[filter-patterns]] — Inclusion/exclusion rules at the database, schema, and table levels to control ingestion scope; supports FQN and simple name matching.
+- [[ingestion-scheduling]] — Mechanism for running metadata agent pipelines on recurring schedules (hourly, daily, weekly, monthly, or custom cron) with configurable retries.
+- [[soft-deletion]] — Ingestion option that marks absent tables as deleted rather than permanently removing them, preserving lineage and historical metadata.
+- [[delete-service-connection]] — Administrative procedure for permanently removing a service connection via the UI, including the two-step confirmation safeguard and important considerations about downstream effects.
+- [[multi-admin-model]] — Design feature enabling multiple Administrators to independently manage separate teams and departments for decentralized governance.
+- [[team-hierarchy-rules]] — Complete parent-child matrix and constraints for the five team types (Organization, BusinessUnit, Division, Department, Group), including data asset ownership rules and Group immutability.
+- [[how-to-add-a-team]] — Step-by-step UI procedure for creating a new team within the organizational hierarchy, including the Public Team option and critical warnings about Group immutability and data asset ownership.
+- [[public-team]] — Configuration option enabling open access where anyone can join a team, view data, and collaborate without explicit invitation.
+- [[how-to-add-users-to-teams]] — Step-by-step procedures for adding users to teams, covering both new user invitation and existing user workflows, with notes on multi-team membership and role inheritance.
+- [[multi-team-membership]] — Capability allowing a single user to belong to multiple Teams simultaneously; enables flexible organizational modeling and raises questions about role conflict resolution.
+- [[how-to-change-team-type]] — Administrative procedure for altering an existing team's type classification through the UI; includes critical warnings about Group immutability, hierarchy validity, and impact on child teams and role assignments.
+- [[hybrid-rbac-abac-model]] — Core authorization framework merging Role-Based Access Control with Attribute-Based Access Control; evaluates user identity, resource attributes, and requested operation.
+- [[viewbasic-viewall-operations]] — Granular permission distinction: ViewBasic grants access to basic metadata (description, tags, owner), while ViewAll includes profile data, sample data, tests, and queries.
+- [[bot-authentication]] — Mechanism by which automated applications (ingestion connectors) authenticate using pre-generated JWT tokens based on SSL certificates.
+- [[resource-attributes]] — Properties of target resources (Table, Topic, Pipeline, etc.) used in ABAC evaluation as the second factor in the authorization framework.
+- [[authorization-rules]] — Atomic building block of authorization: Name, Description, Resources, Operations, Condition (SpEL), and Effect (Allow/Deny).
+- [[authorization-policies]] — Collections of rules evaluated in user session context; Deny precedence for conflict resolution; assigned to teams with top-down inheritance through the organizational hierarchy.
+- [[spel-conditions]] — Reference for all SpEL-based condition functions (`noOwner()`, `isOwner()`, `matchAllTags()`, `matchAnyTag()`, `matchTeam()`, `hasDomain()`) with syntax, parameters, and examples.
+- [[search-rbac]] — Optional feature (disabled by default) that filters search results based on user roles and policies; enabled via Settings > Preferences > Search.
+- [[default-organization-policy]] — Out-of-the-box Organization Policy with two default rules: OrganizationPolicy-NoOwner-Rule and OrganizationPolicy-Owner-Rule.
+- [[tag-based-access-control]] — Authorization pattern using classification tags (like PII.Sensitive) as ABAC attributes to dynamically restrict or grant access based on data sensitivity.
+- [[security-config]] — YAML configuration block within pipeline workflow configs holding the JWT token and authProvider for CLI-based ingestion authentication.
+- [[data-insights-application-troubleshooting]] — Diagnostic workflow for resolving four common Data Insights display failures: empty insights menu, missing KPI charts, no report data, and time-filter failures.
+- [[backfill-configuration]] — Configuration parameter that processes historical data to populate insights views; critical for resolving empty reports and time-filter failures.
+- [[recreate-data-insights-index]] — Application-specific index rebuild toggle for the Data Insights data assets; distinct from general search reindexing.
+- [[resource-types-permission-debugger]] — Complete enumerable list of resource types available in the Permission Debugger dropdown, mapping to ABAC resource attributes.
+- [[evaluation-summary-permission-debugger]] — Quantitative metrics output by the Permission Debugger (Policies Evaluated, Rules Evaluated, Matching Rules, Allow/Deny Rules, Evaluation Time) and their diagnostic interpretation.
+- [[model-context-protocol]] — Open standard (spearheaded by Anthropic) for connecting AI systems to external tools and data in a uniform, secure way; the foundation for OpenMetadata's MCP Server.
+- [[dbt-integration]] — Overview of the dbt-OpenMetadata integration: artifact requirements, Core vs Cloud deployment models, and the ten categories of ingested metadata.
+- [[dbt-artifacts]] — Detailed reference for manifest.json, catalog.json, and run_results.json: what each contains, how generated, and how OpenMetadata uses them.
+- [[dbt-lineage-ingestion]] — How dbt transformation lineage is extracted from `ref()` and `source()` dependencies, the critical `compiled_code` requirement, and troubleshooting missing lineage.
+- [[dbt-artifact-storage]] — Configuration guide for the five storage backends (S3, GCS, Azure, HTTP, Local) required for dbt Core artifact accessibility.
+- [[agentic-ai]] — AI models that take actions on behalf of users using contextual knowledge; enabled in OpenMetadata by exposing the unified knowledge graph to LLMs via MCP.
+- [[bottom-up-top-down-enrichment]] — Dual-direction metadata enrichment: bottom-up from infrastructure (schemas, lineage, profiling) and top-down from user interactions (documentation, ownership, tags).
+- [[oracle-schema-select-limitation]] — Oracle Database limitation: no native schema-level `SELECT` grant; workarounds required for Profiler and Data Quality workflows.
+- [[pg-stat-statements]] — PostgreSQL extension for query statistics collection; documents critical limitations (eviction, normalization, no timestamps), mitigation strategies, and custom query source alternative.
+- [[stored-procedure-lineage]] — Configuration requirements for capturing lineage from PostgreSQL stored procedures: `log_statement = 'all'` and `pg_stat_statements.track = 'all'`.
+- [[postgresql-ssl-modes]] — SSL connection modes (`prefer`, `verify-ca`, `allow`, etc.) for securing PostgreSQL connections in OpenMetadata, configured under Advanced Config with CA certificate.
+- [[postgresql-iam-authentication]] — AWS RDS-specific IAM authentication setup for PostgreSQL: RDS IAM DB authentication, `rds_iam` role grant, and IAM policy with `rds-db:connect` permission.
+- [[classification-tags]] — Metadata labels applied to data assets for governance, discovery, and access control; distinct from Glossary Terms; covers the 3-step tagging workflow, usage tracking, and relationship to ABAC policies.
+- [[tiers]] — Specialized classification tags for ranking data importance and criticality; five-tier system (Tier 1-5) with impact/usage matrix, "start with extremes" methodology, and Tier 5 decluttering via Data Insights.
+- [[system-classification]] — Pre-built classification tags provided by OpenMetadata out of the box; reduces setup effort and provides standard governance vocabulary.
+- [[tag-request-workflow]] — Collaborative governance feature enabling users to request tag changes and discuss them within the platform; supports review-based classification via Tasks with a three-tab interface (Current, New, Difference) and Accept/Edit Accept resolution.
+- [[conversations-around-classification]] — Threaded discussions initiated from individual tags on data assets; supports @mentions, #mentions, replies, reactions, editing, and deletion.
+- [[pii-sample-data-masking]] — Automatic masking of sample data displayed in the UI when a PII tag (PII.Sensitive) is applied to a column or table; masked values replaced with `******`.
+- [[tag-inheritance-for-masking]] — Mechanism by which a table-level PII tag propagates masking to all columns, displaying "Inherited from Table" in the UI.
+- [[auto-classification]] — Automated governance feature using a scheduled agent to identify and tag sensitive data in databases without manual intervention; extends the classification system with agent-based automation.
+- [[agent-based-ingestion]] — Architectural pattern where configurable, schedulable agents perform specific tasks (metadata extraction, auto-classification) against connected data sources.
+- [[sample-data-storage-toggle]] — Configuration option in the Auto Classification Agent controlling whether sample data is ingested during scheduled runs for content analysis.
+- [[sample-data-external-storage]] — Capability (v1.2.1+) to upload profiler-generated sample data to AWS S3 in Parquet format; covers three-tier credential hierarchy, configurable sampling parameters, and the UI 50-row limit vs. Parquet row count distinction.
+- [[order-of-precedence-storage-credentials]] — Resolution hierarchy for sample data storage credentials: Database Schema > Database > Database Service.
+- [[openmetadata-storage-config]] — Opt-out mechanism preventing sample data upload to external storage for specific schemas or databases, even when parent-level credentials are configured.
+- [[dashboard-connectors]] — Category of turnkey connectors for ingesting metadata from BI/dashboard platforms (Superset, Tableau, Power BI, etc.); distinct from database connectors.
+- [[dashboard-lineage]] — Traceability path from business-facing dashboards and charts back to underlying database tables; requires explicit database service name configuration.
+- [[data-asset-ownership]] — Assignment of a Team or User as the responsible entity for a data asset; grants full operational access; Admin-only assignment; team ownership is preferred.
+- [[owner-propagation]] — Top-down hierarchy (Database → Schema → Table) for auto-assigning ownership to child assets; does not override existing owners; re-applies on deletion.
+- [[how-to-add-glossary-terms]] — Step-by-step UI procedure for applying Glossary Terms to data assets, including the tag propagation behavior where associated tags are automatically applied.
+- [[theme-customization]] — Global customization of the OpenMetadata UI with company branding (logo, monogram, favicon) and custom colors (primary, info); accessed via Settings > Preferences > Theme.
+- [[announcements]] — Scheduled, time-bound notifications about upcoming changes to data assets, displayed as banners and in the Activity Feed.
+- [[activity-feed]] — Central UI component displaying real-time updates about data assets, including announcements, tasks, and conversations.
+- [[workflow-deployment-error]] — Partial failure state during ingestion pipeline deployment where the entity is created but no workflow runs; recovery procedure and potential root causes.
+- [[multi-project-dbt-ingestion]] — Ingesting metadata from multiple dbt projects in a single workflow; requires directory-based isolation and S3/GCS/Azure storage backends.
+- [[hierarchical-data-discovery]] — Method of exploring data assets by navigating a tree-like structure that reflects relationships and dependencies, providing an alternative to search-based discovery.
+- [[conversation-threads]] — Threaded discussions initiated from data assets (descriptions, tags, announcements, glossary terms) enabling users to ask questions and collaborate directly within OpenMetadata.
+
+## Sources
+
+- [[sources]] — OpenMetadata Architecture Overview
+- [[OMD - Getting Started]] — Official getting started guide for OpenMetadata v1.12.x
+- [[OMD - Kubernetes Native Orchestrator]] — Official guide for K8s-native ingestion (v1.12.x)
+- [[OMD - Kubernetes On Premises]] — Official guide for on-premises Kubernetes deployment (v1.12.x)
+- [[OMD - Kubernetes Orchestrator Operations & Troubleshooting]] — Official operations and troubleshooting guide for the K8s-native orchestrator (v1.12.x)
+- [[rest-api-connector-openmetadata-integration-docume-20260514]] — Official documentation for the REST API Connector (Beta) in OpenMetadata v1.12.x.
+- [[rest-api-connector-openmetadata-integration-docume-20260514-2]] — Duplicate source of the official REST API Connector documentation (Beta) in OpenMetadata v1.12.x.
+- [[research-production-namespace-best-practices-2026-05-14]] — Deep research synthesis on Kubernetes namespace best practices for production, with OpenMetadata-specific recommendations.
+- [[understand-code-layout---openmetadata-documentatio-20260514]] — Official developer guide to the OpenMetadata v1.12.x codebase layout, schema-first approach, and system components.
+- [[openmetadata-system-architecture-developer-guide---20260514]] — Official developer guide to the OpenMetadata v1.12.x system architecture and core dependencies.
+- [[openmetadata-system-architecture-developer-guide---20260514-2]] — Official developer guide to the OpenMetadata v1.12.x system architecture (terse overview of four core dependencies).
+- [[admin-guide-openmetadata-administration-documentat-20260514]] — Official administration documentation for OpenMetadata v1.12.x covering Roles, Policies, Teams, Users, Alerts, Custom Properties, Data Insights, Audit Logs, and more.
+- [[customizable-landing-page-with-pluggable-panels----20260514]] — Official documentation for the customizable landing page with pluggable panels in OpenMetadata v1.12.x.
+- [[how-to-define-personas-in-openmetadata---openmetad-20260514]] — Official documentation for defining Personas in OpenMetadata v1.12.x, covering the concept and basic creation steps.
+- [[how-to-ingest-metadata-official-documentation---op-20260514]] — Official step-by-step guide for ingesting metadata from third-party sources via the UI, covering service connections, metadata agents, filter patterns, and scheduling.
+- [[how-to-delete-a-service-connection-official-docume-20260514]] — Official documentation for deleting a service connection via the UI in OpenMetadata v1.12.x, including the two-step confirmation safeguard.
+- [[manage-teams-and-users---openmetadata-documentatio-20260514]] — Official documentation for managing teams and users in OpenMetadata v1.12.x, covering hierarchical team structure, multi-Admin model, and team types.
+- [[team-structure-in-openmetadata-official-documentat-20260514]] — Official documentation for the team hierarchy structure in OpenMetadata v1.12.x, defining the five team types, parent-child constraints, and data asset ownership rules.
+- [[how-to-add-a-team-openmetadata-admin-guide---openm-20260514]] — Official step-by-step guide for adding a new team in OpenMetadata v1.12.x, covering the UI workflow, Public Team option, and critical constraints on Group immutability and data asset ownership.
+- [[how-to-add-users-to-teams---openmetadata-documenta-20260514]] — Official procedural documentation for adding users to teams in OpenMetadata v1.12.x, covering both new user invitation and existing user workflows.
+- [[how-to-change-the-team-type-official-documentation-20260514]] — Official procedural documentation for changing an existing team's type classification through the OpenMetadata UI (v1.12.x).
+- [[advanced-guide-for-roles-and-policies---openmetada-20260514]] — Official advanced guide for Roles and Policies in OpenMetadata v1.12.x, covering the hybrid RBAC-ABAC model, authentication flow, authorization framework, and ViewBasic vs. ViewAll operations.
+- [[building-blocks-of-authorization---rules-policies--20260514]] — Official documentation for the building blocks of authorization: Rules, Policies, and Roles in OpenMetadata v1.12.x, covering SpEL conditions, policy inheritance, Deny precedence, and Search RBAC.
+- [[use-cases---creating-roles-policies-in-openmetadat-20260514]] — Official use cases for creating Roles and Policies in OpenMetadata v1.12.x, covering service creation delegation, Data Steward configuration, team-owned data protection, and tag-based PII access control.
+- [[how-to-run-ingestion-pipeline-via-cli-with-basic-a-20260514]] — Official procedural guide for CLI-based ingestion with JWT authentication (v1.12.x).
+- [[reindexing-search---openmetadata-documentation-20260514]] — Official documentation for the Reindexing Search operation in OpenMetadata v1.12.x, covering symptom triggers, UI procedure, Recreate Indexes toggle, nine configurable parameters with best practices, and high-performance starting configuration.
+- [[resolving-data-insights-and-kpi-display-issues-in--20260514]] — Official troubleshooting guide for Data Insights and KPI display issues in OpenMetadata v1.12.x, covering the three-step resolution workflow.
+- [[permission-debugger-analyze-and-troubleshoot-user--20260514]] — Official documentation for the Permission Debugger in OpenMetadata v1.12.x, covering the three-step workflow, resource types, operations, evaluation summary metrics, and worked examples.
+- [[persona-and-landing-page-customization-in-openmeta-20260514]] — Official overview page for Persona and Landing Page Customization in OpenMetadata v1.12.x, introducing persona-based personalization, customizable landing pages, and multi-persona flexibility.
+- [[mcp-server---openmetadata-documentation-20260514]] — Official documentation for the MCP Server in OpenMetadata v1.12.x, covering the Model Context Protocol, installation, authentication (OAuth 2.0 and PAT), and client integration guides.
+- [[dbt Workflow  OpenMetadata Data Build Tool Integration]] — Official documentation for the dbt integration in OpenMetadata v1.12.x, covering artifact requirements, Core vs Cloud deployment, and ten metadata categories.
+- [[Embedding an MCP Server into OpenMetadata]] — Community meetup presentation (May 2025) on embedding MCP into OpenMetadata: architecture, identity-preserving auth via PAT, and AI-driven automation use cases.
+- [[Oracle Connector  OpenMetadata Enterprise Database Guide]] — Official documentation for the Oracle connector in OpenMetadata v1.12.x, covering permission models, supported versions, and Profiler/Quality requirements.
+- [[PostgreSQL Connector  OpenMetadata Database Integration]] — Official documentation for the PostgreSQL connector in OpenMetadata v1.12.x, covering requirements, `pg_stat_statements` limitations, SSL modes, IAM authentication, and stored procedure lineage.
+- [[how-to-classify-data-assets-official-documentation-20260514]] — Official procedural guide for classifying data assets with tags in OpenMetadata v1.12.x; covers the 3-step tagging workflow, usage tracking, Tiers, System Classification, and tag request workflow.
+- [[how-to-request-for-classification-tags-official-do-20260514]] — Official procedural guide for requesting classification tag changes and initiating conversations around tags in OpenMetadata v1.12.x; covers the Task-based request workflow and tag-specific conversation threads.
+- [[sample-data-handling-using-pii-tags---openmetadata-20260514]] — Official documentation for PII sample data masking in OpenMetadata v1.12.x; covers column-level and table-level masking with PII.Sensitive tag.
+- [[adding-auto-classification-workflow-through-ui---o-20260514]] — Official procedural guide for configuring the Auto Classification Agent through the UI in OpenMetadata v1.12.x; covers the 5-step workflow, per-database agent configuration, sample data toggle, and scheduling.
+- [[external-storage-for-sample-data---openmetadata-do-20260514]] — Official documentation for external sample data storage (v1.2.1+): S3/Parquet upload, three-tier credential hierarchy, sampling parameters, and OpenMetadata Storage Config opt-out.
+- [[what-are-tiers-openmetadata-classification-tiers-g-20260514]] — Official documentation for Tiers in OpenMetadata v1.12.x: five-tier importance-based classification system, impact/usage matrix, "start with extremes" methodology, and Tier 5 decluttering via Data Insights.
+- [[Superset Connector  OpenMetadata Dashboard Integration]] — Official documentation for the Superset connector in OpenMetadata v1.12.x, covering API and database extraction methods, SSL configuration, and dashboard-to-table lineage.
+- [[how-to-assign-or-change-data-ownership---openmetad-20260514]] — Official documentation for assigning or changing data asset ownership in OpenMetadata v1.12.x; covers Admin-only assignment, team vs. user ownership, owner propagation, and team preference.
+- [[how-to-add-tags-openmetadata-user-tagging-guide----20260514]] — Simplified user-facing guide for adding classification tags to data assets in OpenMetadata v1.12.x; covers the 3-step manual tagging workflow, tag discovery from the Classification page, and auto-classification via NLP during profiling.
+- [[how-to-request-for-tags-official-documentation---o-20260514]] — Official procedural guide for requesting classification tag changes and initiating conversations around tags in OpenMetadata v1.12.x; covers the Task-based request workflow and tag-specific conversation threads.
+- [[how-to-add-glossary-terms-official-documentation---20260514]] — Official documentation for adding Glossary Terms to data assets in OpenMetadata v1.12.x; covers the 3-step UI workflow and the tag propagation behavior.
+- [[how-to-customize-openmetadata---openmetadata-docum-20260514]] — Official documentation for customizing OpenMetadata with company branding and custom colors via Settings > Preferences > Theme.
+- [[overview-of-announcements-official-documentation---20260514]] — Official documentation for the Announcements feature in OpenMetadata v1.12.x, covering purpose, scheduling, display, and interaction.
+- [[powerbi-dashboard-troubleshooting-guide-openmetada-20260514-2]] — Official troubleshooting guide for the PowerBI dashboard connector in OpenMetadata v1.12.x, covering Workflow Deployment Error, Debug Logging, and Permission Issues.
+- [[setup-multiple-dbt-projects-official-documentation-20260514]] — Official documentation for setting up the dbt workflow to ingest metadata from multiple dbt projects in OpenMetadata v1.12.x.
+- [[guide-to-searching-data-using-hierarchical-view----20260514]] — Official guide for searching data using the Hierarchy View in OpenMetadata v1.12.x, covering access and navigation of the hierarchical structure.
+- [[conversation-threads-openmetadata-collaboration-gu-20260514]] — Official documentation for Conversation Threads in OpenMetadata v1.12.x, covering threaded discussions around data assets, version history (v0.9.0, v0.11.0), and emoji reactions.
+- [[overview-of-announcements-official-documentation---20260514-2]] — Official documentation for the Announcements feature in OpenMetadata v1.12.x, covering purpose, scheduling, display, and interaction.
+- [[what-is-tiering-openmetadata-data-tiering-guide----20260514]] — Official documentation for Tiers in OpenMetadata v1.12.x: five-tier importance-based classification system, impact/usage matrix, "start with extremes" methodology, and Tier 5 decluttering via Data Insights.
+
+## Queries
+- [[how-to-ingest-dbt-custom-properties-2026-05-25-140121|<think>We need to answer: "how can i ingest custom propertie]]
+
+#[[managing-users-and-roles-in-openMetadata-2026-05-22-061312|<think>We need to answer the question: "explain in details h]]overnance, team-owned data protection, and tag-based PII access control.

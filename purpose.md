@@ -1,15 +1,22 @@
-# Purpose
+# Project Purpose
 
-<!--
-Definisci qui gli obiettivi e lo scope della wiki. Domande utili da rispondere:
+## Goal
 
-- Cosa stai cercando di documentare / capire?
-- Chi è l'audience (te stesso? un team? clienti?)
-- Quali domande la wiki deve essere in grado di rispondere?
-- Quali topic sono fuori scope?
+1. Costruzione di una Knowledge Base esaustiva per OpenMetadata basata sulla documentazione ufficiale
+2. Documentazione dello schema dei metadati
+3. Aiuto nella gestione del sistema Openmetadata 
+4. Aiuto nella integrazione con gli altri componenti (Keycloak, Asset, Sistema OpenData)
+5. Raccolta di note di progetto e decisioni architetturali
 
-Questo file viene letto dalle skill di ingest e chat per orientare la generazione.
-Tienilo aggiornato man mano che gli obiettivi evolvono.
--->
 
-TODO — descrivi qui lo scope della tua wiki.
+## Key Questions
+
+
+## Scope
+
+## **In scope:**
+
+
+## **Out of scope:**
+
+##
