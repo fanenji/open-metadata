@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "_notes/01.todo/01.todo.md",
-      "timestamp": 1780076007964
+      "filepath": "wiki/concepts/bot-authentication.md",
+      "timestamp": 1780395335886
     },
     {
-      "filepath": "wiki/concepts/bot-authentication.md",
-      "timestamp": 1780056775024
+      "filepath": "_inbox/clippings/OpenMetadata + DataOps + Agentic AI Turning the Data Estate Into a Living City.md",
+      "timestamp": 1780382195254
+    },
+    {
+      "filepath": "_notes/01.todo/01.todo.md",
+      "timestamp": 1780076007964
     },
     {
       "filepath": "_notes/02.notes/Utente per meta-sourcer.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "99 System/99 System.md",
       "timestamp": 1780056759231
-    },
-    {
-      "filepath": "wiki/queries/utente-read-only-servizi-database-2026-05-29.md",
-      "timestamp": 1780049427488
     }
   ],
   "bookmarkedFileStore": [],
