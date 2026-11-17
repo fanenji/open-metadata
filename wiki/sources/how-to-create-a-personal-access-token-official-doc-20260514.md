@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, authentication, api, security]
 related: [personal-access-token, token-expiration, token-revocation, bot-authentication, mcp-server, cli-ingestion-with-basic-auth]
 sources: ["how-to-create-a-personal-access-token-official-doc-20260514.md"]
+source_path: "[[raw/sources/how-to-create-a-personal-access-token-official-doc-20260514]]"
 ---
-
 # How to Create a Personal Access Token | Official Documentation - OpenMetadata Documentation
 
 **Source:** [OpenMetadata Documentation v1.12.x](https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/personal-access-token)

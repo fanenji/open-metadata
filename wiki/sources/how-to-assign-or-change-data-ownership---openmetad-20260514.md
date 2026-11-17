@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/data-ownership"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/how-to-assign-or-change-data-ownership---openmetad-20260514]]"
 ---
-
 # How to Assign or Change Data Ownership - OpenMetadata Documentation
 
 Official OpenMetadata v1.12.x documentation covering the assignment and change of data asset ownership. The source defines the concept of data asset ownership, the assignment and change procedures (Admin-only), the top-down owner propagation mechanism (Database → Schema → Table), and the recommendation that team ownership (specifically Groups) is preferred over individual user ownership.

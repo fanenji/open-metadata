@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [oracle, connector, troubleshooting, ingestion]
 related: [oracle-connector, workflow-deployment-error, ingestion-pipeline-troubleshooting, debug-logging]
 sources: ["oracle-troubleshooting-guide-openmetadata-support--20260514.md"]
+source_path: "[[raw/sources/oracle-troubleshooting-guide-openmetadata-support--20260514]]"
 ---
-
 # Oracle Troubleshooting Guide | OpenMetadata Support
 
 **URL:** https://docs.open-metadata.org/v1.12.x/connectors/database/oracle/troubleshooting

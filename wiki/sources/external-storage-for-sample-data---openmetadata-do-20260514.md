@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2025
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/auto-classification/external-sample-data"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/external-storage-for-sample-data---openmetadata-do-20260514]]"
 ---
 # External Storage for Sample Data - OpenMetadata Documentation
 

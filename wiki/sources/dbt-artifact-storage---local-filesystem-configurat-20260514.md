@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/dbt/storage-local-guide"
 venue: OpenMetadata Documentation
+source_path: "[[raw/sources/dbt-artifact-storage---local-filesystem-configurat-20260514]]"
 ---
-
 # dbt Artifact Storage - Local Filesystem Configuration
 
 This source is the official OpenMetadata v1.12.x documentation for configuring a local or shared filesystem as the artifact storage layer for the [[dbt]] Core + [[OpenMetadata]] integration. It covers four configuration options: same machine (development), Docker Compose with shared volume, Kubernetes with PersistentVolumeClaim, and NFS mounted shared storage. The guide emphasizes that local filesystem storage is ideal for development and single-server deployments but is not recommended for production distributed systems, where cloud storage (S3, GCS, Azure) should be used.

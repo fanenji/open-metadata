@@ -10,8 +10,8 @@ venue: "OpenMetadata Documentation v1.12.x"
 tags: [openmetadata, teams, hierarchy, governance]
 related: [teams-and-users, team-types, team-hierarchy-rules, multi-admin-model, roles-and-policies]
 sources: ["team-structure-in-openmetadata-official-documentat-20260514.md"]
+source_path: "[[raw/sources/team-structure-in-openmetadata-official-documentat-20260514]]"
 ---
-
 # Team Structure in OpenMetadata | Official Documentation
 
 Source: https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users/team-structure-openmetadata

@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, tagging, classification, pii, auto-classification, data-profiling]
 related: [classification-tags, auto-classification, data-profiling, pii-sample-data-masking, tiers, system-classification, how-to-classify-data-assets-official-documentation-20260514]
 sources: ["how-to-add-tags-openmetadata-user-tagging-guide----20260514.md"]
+source_path: "[[raw/sources/how-to-add-tags-openmetadata-user-tagging-guide----20260514]]"
 ---
-
 # How to Add Tags | OpenMetadata User Tagging Guide
 
 **Source:** [OpenMetadata Documentation v1.12.x](https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/tags)

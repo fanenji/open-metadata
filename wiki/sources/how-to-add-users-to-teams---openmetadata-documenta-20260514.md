@@ -10,8 +10,8 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users/add-users"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-add-users-to-teams---openmetadata-documenta-20260514]]"
 ---
-
 # How to Add Users to Teams - OpenMetadata Documentation
 
 Official procedural documentation for adding users to teams in OpenMetadata v1.12.x. Covers two distinct workflows: adding users to teams during the initial invitation process, and adding existing users to teams via the Settings UI. Documents the capability for multi-team membership during user creation and the inheritance of Roles from team membership.

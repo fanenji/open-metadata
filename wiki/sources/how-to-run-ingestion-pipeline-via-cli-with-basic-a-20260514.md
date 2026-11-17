@@ -10,8 +10,8 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/cli-ingestion-with-basic-auth"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-run-ingestion-pipeline-via-cli-with-basic-a-20260514]]"
 ---
-
 # How To Run Ingestion Pipeline Via CLI with Basic Auth - OpenMetadata Documentation
 
 Official procedural guide for running ingestion pipelines from the command line using JWT-based authentication. Covers obtaining the JWT token from the ingestion-bot, configuring the `securityConfig` block in the pipeline YAML, and executing the pipeline via the `metadata ingest` command.

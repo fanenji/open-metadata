@@ -20,6 +20,7 @@ related: [dbt-custom-properties-ingestion, custom-properties, dbt-integration, d
 sources: ["ingest-custom-properties-from-dbt-openmetadata-cus-20260514.md"]
 ---
 
+
 # Ingest Custom Properties from dbt
 
 Official OpenMetadata documentation (v1.12.x) describing how to ingest custom property values from dbt's `manifest.json` artifact to enrich table metadata with organization-specific attributes.

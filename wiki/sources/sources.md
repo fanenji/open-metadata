@@ -6,8 +6,8 @@ updated: 2024-05-24
 tags: [openmetadata, architecture, metadata-management]
 related: [openmetadata, ingestion-framework, data-profiling, data-lineage, data-quality, glossary-tags]
 sources: ["sources.md"]
+source_path: "[[raw/sources/sources]]"
 ---
-
 # OpenMetadata Architecture Overview
 
 This source document provides a high-level overview of the OpenMetadata platform, its core architecture, and key features. It describes the three main components: the Ingestion Framework, the OpenMetadata Server, and the OpenMetadata UI, and explains how they work together to enable data discovery, lineage, data quality, observability, and governance.

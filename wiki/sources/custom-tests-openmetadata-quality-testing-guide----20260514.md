@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-quality-observability/quality/custom-tests"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/custom-tests-openmetadata-quality-testing-guide----20260514]]"
 ---
-
 # Custom Tests | OpenMetadata Quality Testing Guide
 
 This official guide explains how to extend OpenMetadata's data quality testing with custom tests. It covers two pathways: an API-only approach for writing results from external test tools, and a UI-executable approach using the Python SDK and namespace packages.

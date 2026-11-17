@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [classification, data-governance, openmetadata, tags, pii]
 related: [classification-tags, auto-classification, pii-sample-data-masking, tiers, tag-request-workflow, glossary-terms, data-governance]
 sources: ["classification-openmetadata-data-classification-gu-20260514.md"]
+source_path: "[[raw/sources/classification-openmetadata-data-classification-gu-20260514]]"
 ---
 # Classification | OpenMetadata Data Classification Guide
 

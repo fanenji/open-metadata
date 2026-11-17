@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-quality-observability/alerts-notifications/email-alerts-configuration"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/email-alerts-configuration-openmetadata---openmeta-20260514]]"
 ---
-
 # Email Alerts Configuration | OpenMetadata - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for configuring email alerts via SMTP. It provides a step-by-step guide for setting up the SMTP server in OpenMetadata (Settings > Preferences > Email), covering all configuration fields: Username, Password, Sender Email, Server Endpoint, Server Port, Transportation Strategy, Emailing Entity, Enable SMTP Server toggle, and Support URL.

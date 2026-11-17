@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, data-profiling, custom-metrics, data-quality]
 related: [custom-metrics, data-profiling, data-quality, profiler-agent, metadata-agent, data-observability-alerts]
 sources: ["custom-metrics---openmetadata-documentation-20260514.md"]
+source_path: "[[raw/sources/custom-metrics---openmetadata-documentation-20260514]]"
 ---
 # Custom Metrics - OpenMetadata Documentation
 

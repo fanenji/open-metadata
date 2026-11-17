@@ -10,6 +10,7 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/persona-landing-page-customization"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/persona-and-landing-page-customization-in-openmeta-20260514]]"
 ---
 # Persona and Landing Page Customization in OpenMetadata
 

@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [powerbi, dashboard-connector, oauth, azure-ad, metadata-ingestion]
 related: [powerbi-connector, dashboard-connectors, dashboard-lineage, filter-patterns, soft-deletion, owner-propagation, service-connection, metadata-ingestion-workflow]
 sources: ["powerbi-connector-openmetadata-integration-documen-20260514.md"]
+source_path: "[[raw/sources/powerbi-connector-openmetadata-integration-documen-20260514]]"
 ---
-
 # PowerBI Connector | OpenMetadata Integration Documentation
 
 Official OpenMetadata v1.12.x documentation for the PowerBI dashboard connector. Covers requirements, OAuth 2.0 Service Principal authentication setup, Admin vs. Non-Admin API modes, connection details, filter patterns, lineage configuration, and known limitations (no dataflows, no usage ingestion).

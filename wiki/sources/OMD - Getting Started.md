@@ -5,9 +5,9 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [openmetadata, getting-started, data-cataloging]
 related: [openmetadata, unified-metadata-graph, openmetadata-connectors, openmetadata-features, openmetadata-collaboration, openmetadata-insights, data-quality, data-lineage, glossary-tags]
-sources: ["OMD - Getting Started.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/quick-start/getting-started"]
+source_path: "[[raw/sources/OMD - Getting Started]]"
 ---
-
 # Getting Started with OpenMetadata for Data Cataloging
 
 This source is the official OpenMetadata "Getting Started" guide (v1.12.x). It provides a high-level overview of the platform's architecture, key features, and setup process. The document positions OpenMetadata as a unified platform for data discovery, observability, and governance, emphasizing a 30-minute setup time and a library of 90+ turnkey connectors.

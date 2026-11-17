@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, rest-api, connector, openapi, beta]
 related: [rest-api-connector, openapi-specification, service-connection, metadata-ingestion-workflow, openmetadata-connectors]
 sources: ["rest-api-connector-openmetadata-integration-docume-20260514-2.md"]
+source_path: "[[raw/sources/rest-api-connector-openmetadata-integration-docume-20260514-2]]"
 ---
-
 # REST API Connector | OpenMetadata Integration Documentation
 
 This source is the official OpenMetadata v1.12.x documentation for the REST API Connector (Beta). It covers the requirements, connection configuration, and metadata ingestion workflow for ingesting metadata from any REST API that exposes an OpenAPI Specification (OAS) document.

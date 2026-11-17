@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [superset, connector, yaml, cli, ingestion, external]
 related: [superset-connector, superset-external-execution, metadata-cli, personal-access-token, filter-patterns, soft-deletion, postgresql-ssl-modes, mysql-8x, postgresql-connector, ingestion-framework]
 sources: ["run-the-superset-connector-externally---openmetada-20260514-2.md"]
+source_path: "[[raw/sources/run-the-superset-connector-externally---openmetada-20260514-2]]"
 ---
-
 # Run the Superset Connector Externally - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for running the Superset connector externally via YAML configuration and the `metadata ingest` CLI command. It covers three connection modes (Superset API, MySQL database, PostgreSQL database), comprehensive source configuration options, SSL configuration patterns, and the complete YAML workflow configuration.

@@ -10,6 +10,7 @@ authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/mcp"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/mcp-server---openmetadata-documentation-20260514]]"
 ---
 # MCP Server - OpenMetadata Documentation
 

@@ -10,6 +10,7 @@ authors: [OpenMetadata Documentation Team]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-collaboration/tasks"
 venue: OpenMetadata Official Documentation
+source_path: "[[raw/sources/create-tasks-openmetadata-collaboration-workflow---20260514]]"
 ---
 # Create Tasks | OpenMetadata Collaboration Workflow
 

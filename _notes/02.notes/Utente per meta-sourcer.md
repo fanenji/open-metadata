@@ -45,7 +45,7 @@ eyJraWQiOiJHYjM4OWEtOWY3Ni1nZGpzLWE5MmotMDI0MmJrOTQzNTYiLCJhbGciOiJSUzI1NiIsInR5
 ```
 
 
-## PROBLEMA
+## NOTA
 
 Associazione al team service-accounts: non riesco a vedere il profilo
 

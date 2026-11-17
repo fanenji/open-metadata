@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["data-quality-observability-guide-official-document-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/data-quality-observability-guide-official-document-20260514]]"
 ---
-
 # Source: data-quality-observability-guide-official-document-20260514.md
 
 ## Analysis of: Data Quality Observability Guide

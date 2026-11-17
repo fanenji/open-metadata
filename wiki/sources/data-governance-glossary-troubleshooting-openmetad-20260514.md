@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/glossary/troubleshooting"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/data-governance-glossary-troubleshooting-openmetad-20260514]]"
 ---
 # Data Governance Glossary Troubleshooting | OpenMetadata Guide
 

@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [custom-connectors, ingestion, python-sdk, schema-first, webinar]
 related: [custom-connectors, python-sdk, ingestion-framework, schema-first-approach, openmetadata-connectors, metadata-ingestion-workflow, bot-authentication, owner-propagation, tag-inheritance-for-masking, integration-approaches-comparison]
-sources: ["Mini-Webinar on Custom Connectors dataintegration connectors ingestion datacatalog metadata.md"]
+sources: ["https://www.youtube.com/watch?v=fDUj30Ub9VE"]
 authors: [Pere Miquel Brull]
 year: 2023
 url: "https://www.youtube.com/watch?v=fDUj30Ub9VE"
 venue: "OpenMetadata Community Meetup"
+source_path: "[[raw/sources/Mini-Webinar on Custom Connectors dataintegration connectors ingestion datacatalog metadata]]"
 ---
 # Mini-Webinar on Custom Connectors
 

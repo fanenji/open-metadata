@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [postgresql, connector, troubleshooting, ingestion, lineage, pg-stat-statements]
 related: [postgresql-connector, pg-stat-statements, ingestion-pipeline-troubleshooting, workflow-deployment-error, postgresql-iam-authentication, stored-procedure-lineage]
 sources: ["postgresql-connector-troubleshooting---openmetadat-20260514.md"]
+source_path: "[[raw/sources/postgresql-connector-troubleshooting---openmetadat-20260514]]"
 ---
-
 # PostgreSQL Connector Troubleshooting - OpenMetadata Documentation
 
 This source is the official troubleshooting guide for the PostgreSQL connector in OpenMetadata v1.12.x. It covers common errors and their resolutions, including Workflow Deployment Error, debug logging, permission issues, `pg_stat_statements` relation does not exist, incomplete or missing lineage/usage data, unsupported PostgreSQL version errors, network connectivity errors (`no pg_hba.conf entry for host`), and IAM authentication failures (`PAM authentication failed`).

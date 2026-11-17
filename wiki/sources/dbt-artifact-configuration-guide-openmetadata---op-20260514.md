@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/dbt/storage-configuration-overview"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/dbt-artifact-configuration-guide-openmetadata---op-20260514]]"
 ---
-
 # dbt Artifact Configuration Guide | OpenMetadata
 
 This is the official OpenMetadata documentation page for configuring dbt Core artifact storage. It explains the critical distinction between dbt Core (requires storage configuration) and dbt Cloud (no storage needed, uses Cloud API directly). The guide covers the three-artifact model (manifest.json, catalog.json, run_results.json), the required dbt command sequence, five supported storage backends (AWS S3, GCS, Azure Blob, HTTP Server, Local/Shared Filesystem), and a troubleshooting table for common issues.

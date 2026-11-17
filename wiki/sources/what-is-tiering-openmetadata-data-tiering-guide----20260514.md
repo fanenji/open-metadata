@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [tiers, classification, data-insights, governance]
 related: [tiers, classification-tags, system-classification, openmetadata-insights]
 sources: ["what-is-tiering-openmetadata-data-tiering-guide----20260514.md"]
+source_path: "[[raw/sources/what-is-tiering-openmetadata-data-tiering-guide----20260514]]"
 ---
 # What is Tiering | OpenMetadata Data Tiering Guide
 

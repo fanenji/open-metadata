@@ -10,6 +10,7 @@ authors: [OpenMetadata Documentation Team]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/glossary/best-practices"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/best-practices-for-glossary-official-documentation-20260514]]"
 ---
 # Best Practices for Glossary | Official Documentation
 

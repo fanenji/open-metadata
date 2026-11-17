@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [troubleshooting, import-export, websocket, glossary, csv]
 related: [import-export-troubleshooting, glossary-terms, websocket-dependency, openmetadata-system-architecture]
 sources: ["troubleshooting-for-import-export-issue---openmeta-20260514.md"]
+source_path: "[[raw/sources/troubleshooting-for-import-export-issue---openmeta-20260514]]"
 ---
 # Troubleshooting for Import-Export Issue - OpenMetadata Documentation
 

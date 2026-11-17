@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["data-governance-openmetadata-governance-guide---op-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/data-governance-openmetadata-governance-guide---op-20260514]]"
 ---
-
 # Source: data-governance-openmetadata-governance-guide---op-20260514.md
 
 ## Analysis of Source Document: Data Governance | OpenMetadata Governance Guide

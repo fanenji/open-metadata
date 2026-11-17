@@ -5,10 +5,11 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [powerbi, connector, dashboard, ingestion, lineage, oauth]
 related: [powerbi-connector, openmetadata-connectors, data-lineage, metadata-ingestion-workflow, service-connection]
-sources: ["PowerBI Connector  OpenMetadata Integration Documentation.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/connectors/dashboard/powerbi"]
 authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/dashboard/powerbi"
+source_path: "[[raw/sources/PowerBI Connector  OpenMetadata Integration Documentation]]"
 ---
 # PowerBI Connector | OpenMetadata Integration Documentation
 

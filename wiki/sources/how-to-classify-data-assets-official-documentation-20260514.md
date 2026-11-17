@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/assets"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-classify-data-assets-official-documentation-20260514]]"
 ---
 # How to Classify Data Assets | Official Documentation
 

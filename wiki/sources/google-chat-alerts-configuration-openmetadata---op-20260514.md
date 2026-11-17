@@ -10,6 +10,7 @@ authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-quality-observability/alerts-notifications/google-chat-alerts-configuration"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/google-chat-alerts-configuration-openmetadata---op-20260514]]"
 ---
 # Google Chat Alerts Configuration | OpenMetadata
 

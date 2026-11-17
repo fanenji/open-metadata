@@ -1,4 +1,11 @@
 
+## TODO
+- integrazione con keycloak: prove di ruolo/gruppo specifico
+
+
+
+## Documentation
+
 Managing users and roles in wiki/sources/OpenMetadata revolves around a dual-layer architecture: a **Role** governs security and permissions, while a **Persona** tailors the user experience. Here is a detailed breakdown of how these components are managed and how they interact.
 
 ### 1. Governance Layer: Roles and Policies (The "Hard Boundary")
@@ -9,6 +16,7 @@ Roles control what a user is _allowed to do_. They rely on a hybrid RBAC/ABAC m
     - **effect:** `Allow` or `Deny`
     - **operations:** Specific actions, e.g., `ViewAll`, `EditDescription`, `Delete`
     - **conditions:** Context-dependent constraints, such as ownership checks or tag-based conditions
+    - NOTA: nelle policies ci sono anche le Resources (???)
 - **Roles:** A Role is a container that bundles together multiple Policy IDs [1]. OpenMetadata ships with several pre-defined roles out-of-the-box: `Admin`, `Data Steward`, `Data Engineer`, `Data Analyst`, and `Data Consumer` [1]. Administrators can create custom roles by defining the JSON schema.
 - **Assignment:** Roles are assigned to users or teams by administrators to establish their baseline set of permissions [1][29]. Users cannot bypass or change their assigned roles [1].
 
@@ -37,3 +45,8 @@ Personas exist to enhance productivity and do **not** confer any permissions [
 3. **Assign Roles:** Assign the Role to specific Users or Teams within the hierarchical structure [1][29].
 4. **Assign Personas (Optional):** Configure Persona settings to curate the UI experience for users based on their job functions [1].
 5. **Create Service Accounts (Optional):** For automation, create a Bot and generate a JWT for authentication [30].
+
+## NOTES
+
+- Service accounts (es: per ingestion kestra) devono avere policy [Application Bot Policy](https://openmetadata-test.dataliguria.it/settings/access/policies/ApplicationBotPolicy)
+- Per poter accedere al profilo (per creare token) devono avere policy [Data Consumer Policy](https://openmetadata-test.dataliguria.it/settings/access/policies/DataConsumerPolicy)

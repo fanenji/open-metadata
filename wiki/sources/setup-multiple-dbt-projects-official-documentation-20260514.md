@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["setup-multiple-dbt-projects-official-documentation-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/setup-multiple-dbt-projects-official-documentation-20260514]]"
 ---
-
 # Source: setup-multiple-dbt-projects-official-documentation-20260514.md
 
 ## Analysis: Setup Multiple dbt Projects

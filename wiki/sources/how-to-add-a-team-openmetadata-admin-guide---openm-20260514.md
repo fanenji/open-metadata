@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users/add-team"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-add-a-team-openmetadata-admin-guide---openm-20260514]]"
 ---
-
 # How to Add a Team | OpenMetadata Admin Guide
 
 Official step-by-step guide for creating a new team within the OpenMetadata organizational hierarchy. This procedure covers navigating to the appropriate parent team (BusinessUnit, Division, or Department), configuring team properties including the critical teamType selection, enabling the Public Team option for open collaboration, and understanding the irreversible implications of choosing the Group team type.

@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["superset-connector-openmetadata-dashboard-integrat-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/superset-connector-openmetadata-dashboard-integrat-20260514]]"
 ---
-
 # Source: superset-connector-openmetadata-dashboard-integrat-20260514.md
 
 ## Analysis of: Superset Connector | OpenMetadata Dashboard Integration

@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, announcements, data-collaboration, activity-feed]
 related: [announcements, activity-feed, data-observability-alerts, openmetadata-collaboration]
 sources: ["overview-of-announcements-official-documentation---20260514-2.md"]
+source_path: "[[raw/sources/overview-of-announcements-official-documentation---20260514-2]]"
 ---
 # Overview of Announcements | Official Documentation - OpenMetadata Documentation
 

@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-culture, data-insights, tiers, glossary, data-ownership, data-quality]
 related: [data-culture, data-insights-application-troubleshooting, tiers, glossary-terms, data-asset-ownership, data-quality, teams-and-users]
 sources: ["how-to-transform-the-data-culture-of-your-company--20260514.md"]
+source_path: "[[raw/sources/how-to-transform-the-data-culture-of-your-company--20260514]]"
 ---
 # How to Transform the Data Culture of Your Company
 

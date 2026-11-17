@@ -9,6 +9,7 @@ sources: ["adding-auto-classification-workflow-through-ui---o-20260514.md"]
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/auto-classification/workflow"
 authors: ["OpenMetadata Documentation Team"]
 year: 2026
+source_path: "[[raw/sources/adding-auto-classification-workflow-through-ui---o-20260514]]"
 ---
 # Adding Auto Classification Workflow through UI - OpenMetadata Documentation
 

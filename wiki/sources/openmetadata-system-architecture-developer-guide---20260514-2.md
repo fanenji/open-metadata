@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/developers/architecture"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/openmetadata-system-architecture-developer-guide---20260514-2]]"
 ---
-
 # OpenMetadata System Architecture | Developer Guide
 
 This official developer guide page provides a concise, high-level overview of the OpenMetadata system architecture. It identifies the four core external dependencies that form the foundation of the platform:

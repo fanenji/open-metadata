@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["incident-manager-openmetadata-data-quality-managem-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/incident-manager-openmetadata-data-quality-managem-20260514]]"
 ---
-
 # Source: incident-manager-openmetadata-data-quality-managem-20260514.md
 
 ## Analysis of Incident Manager Source Document

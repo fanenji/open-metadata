@@ -10,6 +10,7 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/data-insights"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/resolving-data-insights-and-kpi-display-issues-in--20260514]]"
 ---
 # Resolving Data Insights and KPI Display Issues in OpenMetadata
 

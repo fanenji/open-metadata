@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-insights/service-insights"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/service-insights-overview-official-documentation---20260514]]"
 ---
 # Service Insights Overview | Official Documentation
 

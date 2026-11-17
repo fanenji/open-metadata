@@ -10,8 +10,8 @@ authors: [OpenMetadata Documentation Team]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-contracts/create"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/creating-data-contracts-openmetadata-data-contract-20260514]]"
 ---
-
 # Creating Data Contracts | OpenMetadata Data Contracts Guide
 
 This official guide documents the 6-step UI workflow for creating a [[data-contracts|Data Contract]] for a table in OpenMetadata v1.12.x. Data contracts are formal, versioned agreements between data producers and consumers that specify schema, semantics (business rules), and quality expectations for a data asset. Currently, data contracts are available only for tables ingested into OpenMetadata.

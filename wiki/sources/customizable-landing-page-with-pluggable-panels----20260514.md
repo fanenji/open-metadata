@@ -10,8 +10,8 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/persona-landing-page-customization/customizable-landing-page"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/customizable-landing-page-with-pluggable-panels----20260514]]"
 ---
-
 # Customizable Landing Page with Pluggable Panels - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page detailing how administrators can customize the landing page using pluggable panels tailored to user personas. It covers the step-by-step configuration process, the available panel types (Activity Feed, KPIs, Announcements, Tasks, Recently Viewed), persona switching, default persona settings, and use case examples for Data Engineers and Data Stewards. The document also outlines future enhancements including entity page customization and knowledge panel expansion.

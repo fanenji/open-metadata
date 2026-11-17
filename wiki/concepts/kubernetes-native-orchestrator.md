@@ -1,15 +1,33 @@
 ---
+sources: [OMD - Kubernetes Native Orchestrator.md, Announcing OpenMetadata 1.12 1.md]
+tags: [kubernetes, orchestration, ingestion, operator, crd, openmetadata, deployment]
+related: [omjob-operator, pipeline-service-client, ingestion-framework, openmetadata, kubernetes, airflow-to-kubernetes-migration, helm-charts]
 type: concept
 title: Kubernetes Native Orchestrator
 created: 2026-05-14
-updated: 2026-05-14
-tags: [kubernetes, orchestration, ingestion, operator, crd]
-related: [omjob-operator, pipeline-service-client, ingestion-framework, openmetadata]
-sources: ["OMD - Kubernetes Native Orchestrator.md"]
+updated: 2026-07-07
 ---
 # Kubernetes Native Orchestrator
 
-Starting with OpenMetadata v1.12, ingestion pipelines can run directly on Kubernetes without requiring Apache Airflow. This represents a significant architectural shift, allowing organizations that already operate Kubernetes workloads to use native scheduling and execution primitives.
+The **Kubernetes Native Orchestrator** is OpenMetadata's native scheduler for ingestion workflows, using Kubernetes directly instead of Apache Airflow. Introduced as a GA feature in OpenMetadata 1.12, it eliminates the Airflow dependency for cloud-native deployments. Starting with v1.12, ingestion pipelines can run directly on Kubernetes without requiring Apache Airflow — a significant architectural shift for organizations already operating Kubernetes workloads.
+
+## Architecture
+
+With the Kubernetes Orchestrator, OpenMetadata deployment is simplified from four components to three:
+
+| Before (with Airflow) | After (Kubernetes Orchestrator) |
+|-----------------------|-------------------------------|
+| Application Server | Application Server |
+| Database (MySQL/Postgres) | Database (MySQL/Postgres) |
+| Search Index (OpenSearch/ES) | Search Index (OpenSearch/ES) |
+| Airflow | *(removed)* |
+
+## Key Benefits
+
+- **Simplified Operations**: Fewer components mean simpler monitoring, updates, and troubleshooting
+- **Cloud-Native**: Leverages existing Kubernetes clusters without managing a separate Airflow installation
+- **Community-Driven**: Built in response to feedback that Airflow complexity was creating deployment friction
+- **Native K8s Primitives**: Uses Kubernetes Jobs and CronJobs via the [[omjob-operator]] for scheduling
 
 ## Orchestration Modes
 
@@ -48,3 +66,20 @@ All Kubernetes orchestration settings are configured through the [[pipeline-serv
 | Setup complexity | Moderate | Low |
 
 For production deployments, Option 1 is strongly recommended due to the exit handler guarantee and automatic diagnostics. Option 2 is appropriate for development, testing, or restricted environments where CRD installation is not possible.
+
+## Migration from Airflow
+
+See [[airflow-to-kubernetes-migration]] for migration guidance from Airflow-based ingestion to the Kubernetes Orchestrator.
+
+## Requirements
+
+- Kubernetes cluster (1.25+)
+- [[omjob-operator]] deployed in the cluster
+- [[helm-charts]] for OpenMetadata deployment
+
+## See Also
+
+- [[omjob-operator]] — Kubernetes operator for ingestion jobs
+- [[airflow-to-kubernetes-migration]] — Migration guide from Airflow
+- [[kubernetes]] — Kubernetes platform details
+- [[ingestion-framework]] — Ingestion framework overview

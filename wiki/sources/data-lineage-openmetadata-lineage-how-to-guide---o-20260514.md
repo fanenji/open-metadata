@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["data-lineage-openmetadata-lineage-how-to-guide---o-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/data-lineage-openmetadata-lineage-how-to-guide---o-20260514]]"
 ---
-
 # Source: data-lineage-openmetadata-lineage-how-to-guide---o-20260514.md
 
 ## Analysis of: Data Lineage | OpenMetadata Lineage How-To Guide

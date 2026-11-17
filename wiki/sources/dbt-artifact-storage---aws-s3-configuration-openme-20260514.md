@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/dbt/storage-s3-guide"
 venue: OpenMetadata Documentation
+source_path: "[[raw/sources/dbt-artifact-storage---aws-s3-configuration-openme-20260514]]"
 ---
-
 # dbt Artifact Storage - AWS S3 Configuration | OpenMetadata
 
 This official guide walks through configuring AWS S3 as the artifact storage layer for the dbt Core + OpenMetadata integration. It covers the complete workflow: creating an S3 bucket, setting up two separate IAM policies (write for dbt/Airflow, read for OpenMetadata), uploading artifacts via a production-ready Airflow DAG, and configuring the OpenMetadata ingestion pipeline to read from S3.

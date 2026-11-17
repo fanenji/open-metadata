@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [oracle, connector, ingestion, metadata, permissions]
 related: [oracle-connector, openmetadata-connectors, service-connection, metadata-ingestion-workflow, data-profiling, data-quality, dbt-integration, data-lineage]
-sources: ["Oracle Connector  OpenMetadata Enterprise Database Guide.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/connectors/database/oracle"]
 authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/oracle"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/Oracle Connector  OpenMetadata Enterprise Database Guide]]"
 ---
 # Oracle Connector | OpenMetadata Enterprise Database Guide
 

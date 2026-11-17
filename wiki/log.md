@@ -1,6 +1,6 @@
 # Research Log
 
-- 2026-05-30 — wiki-lint: 66 warning, 379 info (--fix applicato: 52 frontmatter aggiunti, 1 created field aggiunto, lint.py allineato a schema.md; --no-semantic --no-qmd)
+- 2026-07-15 09:51 — wiki-lint: 230 warning (2 nuove), 410 info + Step 2 semantico: 5 duplicate, 1 stale, 1 suggestion
 
 ## 2026-05-13
 
@@ -427,3 +427,61 @@ related: []
 
 - 2026-05-29 12:10 — query aggiornata: "Configurare utente read-only su metadati servizi database" — aggiunta sezione service account e autenticazione JWT (PAT vs Bot)
 
+
+- 2026-06-08 12:15 — query: "procedura per effettuare ingestion di vari tipi di metadati da dbt: tags, glossary, owner, tier" → 13 pagine consultate
+
+
+- 2026-06-08 15:30 — query: "E' possibile fare ingestion di custom properties dbt in openmatadata a LIVELLO DI COLONNA" → 5 pagine consultate, salvata in [[dbt-custom-properties-livello-colonna-2026-06-08]]
+
+
+
+## [2026-06-08] ingest | Research: Ingestion di Custom Properties a Livello di Colonna da DBT a OpenMetadata
+- Source: `wiki/queries/research-ingestion-di-custom-properties-a-livello-di-colonn-2026-06-08.md`
+- New pages: `wiki/concepts/dbt-column-level-custom-properties.md`
+- Updated pages: `wiki/concepts/dbt-custom-property-ingestion.md` (added documentation gap section, column-level nuance)
+- Updated: `wiki/index.md`, `wiki/overview.md`
+- 8 web sources, 7 QMD cross-references (top: dbt-custom-property-ingestion @ 0.93)
+
+
+
+- 2026-06-08 18:45 — query (re-run post-correzione): "E' possibile fare ingestion di custom properties dbt in OpenMetadata a LIVELLO DI COLONNA" → 3 pagine consultate, salvata in [[dbt-custom-properties-colonna-non-supportato-2026-06-08]]
+
+
+- 2026-06-11 18:45 — query: "è possibile fare ingestion da dbt a openmetadata in modo tale che il lineage sia completo: da source a exposure. Vengono gestite le exposures dbt in openmetadata?" → 7 pagine consultate + GitHub issue #12911 + source code (metadata.py, constants.py)
+
+
+- 2026-06-15 — query: "è possibile accedere a openmetadata senza fare login?" → 7 pagine consultate, salvata in `wiki/queries/accesso-openmetadata-senza-login-2026-06-15.md`
+
+
+- 2026-06-15 — query: "Descrivi la procedura dettagliata per definire autenticazione e autorizzazione per un bot di ingestion" → 9 pagine consultate
+
+
+- 2026-06-17 12:00 — query: "come effettuare ingestion di Domains da dbt a openmetadata" → 5 pagine consultate
+
+- 2026-06-17 15:30 — query: "best practices for glossary definition" → 7 pagine consultate, salvata in wiki/queries/best-practices-glossary-definition-2026-06-17.md
+
+- 2026-06-24 15:30 — query: "fammi una overview delle api di openmetadata nell'ottica di leggere i metadati relativi ad un asset (tavola)" → 7 pagine consultate → salvata in [[overview-api-openmetadata-metadati-tabella-2026-06-24]]
+
+
+
+- 2026-06-26 — query: "configurazione sso con keycloak" → 6 pagine consultate, salvata in [[configurazione-sso-keycloak-2026-06-26]]
+
+- 2026-06-29 11:28 — query: "what is a Data Product in openmetadata and how are they managed?" → 6 pagine consultate
+- 2026-07-07 13:39 — ingest: End the 2 AM Pipeline Fixes OpenMetadata's Collaborative, Actionable Data Contracts Stop Breaks….md → 4 files
+- 2026-07-07 13:42 — ingest: How to Get Started with Data Quality as Code in Your Pipelines.md → 5 files
+- 2026-07-07 13:43 — ingest: OpenMetadata Data Quality Management Guide.md → 2 files
+- 2026-07-07 13:43 — ingest: OpenMetadata for data quality.md → 4 files
+- 2026-07-07 13:44 — ingest: OpenMetadata - build-ai-you-can-trust-with-knowledge-graph.md → 5 files
+- 2026-07-07 13:45 — ingest: OpenMetadata MCP.md → 3 files
+- 2026-07-07 13:45 — ingest: OpenMetadata MCP - Context is Important, Metadata Provides It.md → 3 files
+- 2026-07-07 13:45 — ingest: OpenMetadata - The Complete Guide Every Data Engineer Needs to Read.md → 2 files
+- 2026-07-07 13:46 — ingest: OpenMetadata + DataOps + Agentic AI Turning the Data Estate Into a Living City.md → 2 files
+- 2026-07-07 13:47 — ingest: Openmetadata Unified Knowledge Graph.md → 2 files
+- 2026-07-07 13:47 — ingest: openmetadata-ontology-introduction.md → 2 files
+- 2026-07-07 13:47 — ingest: openmetadata-standards-overview.md → 2 files
+- 2026-07-07 13:47 — ingest: openmetadata-rdf-ontologies-overview.md → 2 files
+- 2026-07-07 13:47 — ingest: Upgrading from OpenMetadata to Collate -- the 3 Compelling Reasons.md → 2 files
+- 2026-07-07 15:55 — ingest: Announcing OpenMetadata 1.12 1.md → 13 files
+- 2026-07-07 16:07 — ingest: research-how-to-ingest-dbt-data-contracts-to-open-metadata-2026-07-07.md → 4 files
+- 2026-07-07 16:32 — ingest: research-openmetadata-112-odcs-31-bridge-per-dbt-data-contr-2026-07-07.md → 4 files
+- 2026-07-07 16:34 — ingest: research-openmetadata-112-odcs-31-bridge-per-dbt-data-contr-2026-07-07.md → 4 files

@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/table-constraint"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/managing-and-editing-table-constraint-in-openmetad-20260514]]"
 ---
-
 # Managing and Editing Table Constraint in OpenMetadata
 
 This official OpenMetadata documentation page (v1.12.x) describes how table constraints — specifically foreign key relationships — are captured during metadata ingestion and how users can view and edit them through the OpenMetadata UI. It is categorized under the Data Discovery section of the documentation.

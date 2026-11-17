@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/how-to-ingest-metadata"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-ingest-metadata-official-documentation---op-20260514]]"
 ---
-
 # How to Ingest Metadata | Official Documentation - OpenMetadata Documentation
 
 Official step-by-step guide for integrating third-party data sources with OpenMetadata and running ingestion workflows from the UI. Covers the complete workflow: creating a service connection, configuring a metadata agent with filter patterns, scheduling ingestion pipelines, and managing deployed agents.

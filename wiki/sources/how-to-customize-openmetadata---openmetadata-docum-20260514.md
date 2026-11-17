@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [theme, customization, branding, ui]
 related: [theme-customization, persona-and-landing-page-customization, openmetadata-administration]
 sources: ["how-to-customize-openmetadata---openmetadata-docum-20260514.md"]
+source_path: "[[raw/sources/how-to-customize-openmetadata---openmetadata-docum-20260514]]"
 ---
-
 # How to Customize OpenMetadata - OpenMetadata Documentation
 
 **Source:** [OpenMetadata Documentation v1.12.x](https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/theme)

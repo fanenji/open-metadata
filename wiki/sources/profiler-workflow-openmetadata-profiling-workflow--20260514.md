@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["profiler-workflow-openmetadata-profiling-workflow--20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/profiler-workflow-openmetadata-profiling-workflow--20260514]]"
 ---
-
 # Source: profiler-workflow-openmetadata-profiling-workflow--20260514.md
 
 ## Key Entities

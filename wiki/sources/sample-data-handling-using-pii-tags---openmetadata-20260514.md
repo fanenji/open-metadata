@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/sample-data-using-pii-tag"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/sample-data-handling-using-pii-tags---openmetadata-20260514]]"
 ---
 # Sample Data Handling Using PII Tags - OpenMetadata Documentation
 

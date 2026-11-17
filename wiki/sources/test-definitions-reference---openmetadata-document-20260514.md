@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-quality, test-definitions, python-sdk, reference]
 related: [data-quality, data-profiling, ingestion-framework, metadata-sdk-data-quality]
 sources: ["test-definitions-reference---openmetadata-document-20260514.md"]
+source_path: "[[raw/sources/test-definitions-reference---openmetadata-document-20260514]]"
 ---
 # Test Definitions Reference - OpenMetadata Documentation
 

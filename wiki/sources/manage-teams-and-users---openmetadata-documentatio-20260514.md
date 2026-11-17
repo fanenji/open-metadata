@@ -9,6 +9,7 @@ sources: ["manage-teams-and-users---openmetadata-documentatio-20260514.md"]
 authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users"
+source_path: "[[raw/sources/manage-teams-and-users---openmetadata-documentatio-20260514]]"
 ---
 # Manage Teams and Users - OpenMetadata Documentation
 

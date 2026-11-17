@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/dbt/dbt-troubleshooting"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/dbt-troubleshooting-openmetadata-integration-suppo-20260514]]"
 ---
-
 # dbt Troubleshooting | OpenMetadata Integration Support
 
 Official troubleshooting guide for the dbt integration in OpenMetadata v1.12.x. Covers three common failure scenarios: the dbt tab not displaying in the UI, lineage not appearing from dbt, and S3 AccessDenied errors when retrieving dbt artifacts.

@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-quality, dataframe-validation, sdk, etl]
 related: [dataframe-validation, data-quality-as-code, data-quality-sdk, data-quality]
 sources: ["dataframe-validation---openmetadata-documentation-20260514.md"]
+source_path: "[[raw/sources/dataframe-validation---openmetadata-documentation-20260514]]"
 ---
 # DataFrame Validation - OpenMetadata Documentation
 

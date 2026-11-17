@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["oracle-connector-openmetadata-enterprise-database--20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/oracle-connector-openmetadata-enterprise-database--20260514]]"
 ---
-
 # Source: oracle-connector-openmetadata-enterprise-database--20260514.md
 
 ## Analysis of: Oracle Connector | OpenMetadata Enterprise Database Guide

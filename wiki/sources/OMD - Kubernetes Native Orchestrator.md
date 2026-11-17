@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [kubernetes, ingestion, orchestration, operator, crd]
 related: [kubernetes-native-orchestrator, omjob-operator, pipeline-service-client, ingestion-framework, openmetadata]
-sources: ["OMD - Kubernetes Native Orchestrator.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/deployment/ingestion/kubernetes"]
 authors: []
 year: 2025
 url: "https://docs.open-metadata.org/v1.12.x/deployment/ingestion/kubernetes"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/OMD - Kubernetes Native Orchestrator]]"
 ---
 # OMD - Kubernetes Native Orchestrator
 

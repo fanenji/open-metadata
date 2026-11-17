@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/auto-classification/external-workflow"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/external-auto-classification-workflow---openmetada-20260514]]"
 ---
 # External Auto Classification Workflow - OpenMetadata Documentation
 

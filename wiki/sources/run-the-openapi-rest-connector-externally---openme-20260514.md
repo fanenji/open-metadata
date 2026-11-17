@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, rest-api-connector, ingestion, cli, yaml-config]
 related: [rest-api-connector, metadata-cli, cli-ingestion-with-basic-auth, filter-patterns, bot-authentication, personal-access-token, rest-connector-yaml-config, external-connector-execution]
 sources: ["run-the-openapi-rest-connector-externally---openme-20260514.md"]
+source_path: "[[raw/sources/run-the-openapi-rest-connector-externally---openme-20260514]]"
 ---
-
 # Run the OpenAPI/REST Connector Externally - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for running the [[rest-api-connector|OpenAPI/REST Connector]] externally (outside the UI) using a YAML configuration file and the `metadata ingest` CLI command. It provides a complete YAML config template covering the source configuration (type, service name, OpenAPI schema URL, token), sink configuration, and workflow configuration (logger level, OpenMetadata server connection with JWT token authentication). The page also references external schedulers as an alternative orchestration method and notes the Python version requirements (3.9-3.11).

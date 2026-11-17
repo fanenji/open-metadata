@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [data-discovery, hierarchy, ui]
 related: [hierarchy-view, data-discovery, unified-metadata-graph, openmetadata-features]
 sources: ["guide-to-searching-data-using-hierarchical-view----20260514.md"]
+source_path: "[[raw/sources/guide-to-searching-data-using-hierarchical-view----20260514]]"
 ---
-
 # Guide to Searching Data Using Hierarchical View - OpenMetadata Documentation
 
 **Source**: [OpenMetadata v1.12.x Documentation](https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/hierarchy)

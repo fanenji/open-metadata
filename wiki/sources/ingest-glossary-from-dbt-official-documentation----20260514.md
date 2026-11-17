@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [dbt, glossary, ingestion, metadata]
 related: [dbt-integration, dbt-artifacts, glossary-terms, how-to-add-glossary-terms, dbt-glossary-ingestion]
 sources: ["ingest-glossary-from-dbt-official-documentation----20260514.md"]
+source_path: "[[raw/sources/ingest-glossary-from-dbt-official-documentation----20260514]]"
 ---
-
 # Ingest Glossary from dbt | Official Documentation
 
 This source is the official OpenMetadata documentation page for ingesting glossary terms from dbt. It provides a step-by-step walkthrough for associating table-level and column-level glossary terms with dbt models using the `meta.openmetadata.glossary` configuration in `schema.yml` files. The glossary term FQNs are embedded in the dbt `manifest.json` artifact and ingested by OpenMetadata.

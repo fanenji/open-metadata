@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, glossary, export, csv, data-governance]
 related: [glossary-export, glossary-terms, how-to-add-glossary-terms, classification-tags]
 sources: ["glossary-export-openmetadata-export-guide---openme-20260514.md"]
+source_path: "[[raw/sources/glossary-export-openmetadata-export-guide---openme-20260514]]"
 ---
 # Glossary Export | OpenMetadata Export Guide
 

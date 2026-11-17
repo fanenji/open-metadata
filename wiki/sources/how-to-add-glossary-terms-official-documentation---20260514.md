@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, glossary, tags, data-governance]
 related: [glossary-tags, classification-tags, how-to-add-tags, tag-inheritance-for-masking, how-to-add-glossary-terms]
 sources: ["how-to-add-glossary-terms-official-documentation---20260514.md"]
+source_path: "[[raw/sources/how-to-add-glossary-terms-official-documentation---20260514]]"
 ---
-
 # How to Add Glossary Terms | Official Documentation - OpenMetadata Documentation
 
 **Source:** https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/glossary

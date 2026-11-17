@@ -10,8 +10,8 @@ authors: [OpenMetadata Documentation Team]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/import"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/bulk-import-data-assets-via-csv-in-openmetadata----20260514]]"
 ---
-
 # Bulk Import Data Assets via CSV in OpenMetadata
 
 Official documentation (v1.12.x) describing how to bulk import data assets — Database Services, Databases, Database Schemas, and Tables — into OpenMetadata using CSV files. The guide covers the step-by-step UI workflow for each asset type, including the export-as-template pattern, inline editing, validation, and confirmation. It also provides the corresponding API endpoints for programmatic import. The source uses Snowflake as the reference example throughout.

@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/auto-classification/auto-pii-tagging"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/auto-pii-tagging-guide-official-documentation---op-20260514]]"
 ---
 # Auto PII Tagging Guide | Official Documentation
 

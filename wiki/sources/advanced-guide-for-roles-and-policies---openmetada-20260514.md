@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/roles-policies"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/advanced-guide-for-roles-and-policies---openmetada-20260514]]"
 ---
 # Advanced Guide for Roles and Policies - OpenMetadata Documentation
 

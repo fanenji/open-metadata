@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/domains-&-data-products"
 venue: ""
+source_path: "[[raw/sources/domains-data-products-official-documentation---ope-20260514]]"
 ---
 # Domains & Data Products | Official Documentation - OpenMetadata Documentation
 

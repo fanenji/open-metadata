@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["alerts-notifications-openmetadata-guide---openmeta-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/alerts-notifications-openmetadata-guide---openmeta-20260514]]"
 ---
-
 # Source: alerts-notifications-openmetadata-guide---openmeta-20260514.md
 
 ## Analysis of: Alerts & Notifications | OpenMetadata Guide

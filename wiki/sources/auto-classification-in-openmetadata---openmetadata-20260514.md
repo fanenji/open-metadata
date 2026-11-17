@@ -10,6 +10,7 @@ authors: ["OpenMetadata Documentation"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/auto-classification"
 venue: "OpenMetadata Docs v1.12.x"
+source_path: "[[raw/sources/auto-classification-in-openmetadata---openmetadata-20260514]]"
 ---
 # Auto-Classification in OpenMetadata
 

@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [data-discovery, advanced-search, elasticsearch, custom-properties]
 related: [advanced-search, custom-properties, elasticsearch-7x, hierarchical-data-discovery]
 sources: ["add-complex-queries-using-advanced-search---openme-20260514.md"]
+source_path: "[[raw/sources/add-complex-queries-using-advanced-search---openme-20260514]]"
 ---
-
 # Add Complex Queries using Advanced Search - OpenMetadata Documentation
 
 **Source:** https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/advanced

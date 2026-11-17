@@ -3,6 +3,8 @@
 # INTEGRAZIONE
 
 
+NOTA: vince sempre keycloak se modifico appartenenza su omd al successivo accesso viene ripristinato il ruolo vecchio (es: admin)
+
 OpenMetadata espone un client OIDC completo che si allinea perfettamente alle capacità di KeyCloak.
 
 Ecco una guida pratica strutturata per passaggi, con i riferimenti alla documentazione ufficiale.

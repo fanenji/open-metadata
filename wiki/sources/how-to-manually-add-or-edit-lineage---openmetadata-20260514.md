@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-manually-add-or-edit-lineage---openmetadata-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-manually-add-or-edit-lineage---openmetadata-20260514]]"
 ---
-
 # Source: how-to-manually-add-or-edit-lineage---openmetadata-20260514.md
 
 ## Analysis: How to Manually Add or Edit Lineage

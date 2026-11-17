@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-collaboration"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/data-collaboration-openmetadata-collaboration-feat-20260514]]"
 ---
-
 # Data Collaboration | OpenMetadata Collaboration Features
 
 Official OpenMetadata documentation page (v1.12.x) providing an overview of the three pillars of data collaboration: Conversation Threads, Tasks, and Announcements. The page describes how these features enable teams to break information silos, share organizational knowledge, and collaborate directly within the platform.

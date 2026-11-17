@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-create-an-announcement---openmetadata-docum-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-create-an-announcement---openmetadata-docum-20260514]]"
 ---
-
 # Source: how-to-create-an-announcement---openmetadata-docum-20260514.md
 
 ## Analysis: How to Create an Announcement - OpenMetadata Documentation

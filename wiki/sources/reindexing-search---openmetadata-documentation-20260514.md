@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/reindexing-search"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/reindexing-search---openmetadata-documentation-20260514]]"
 ---
 # Reindexing Search — OpenMetadata Documentation
 

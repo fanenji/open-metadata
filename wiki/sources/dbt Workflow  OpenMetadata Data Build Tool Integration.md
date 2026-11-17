@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [dbt, ingestion, lineage, data-quality, metadata]
 related: [dbt-integration, dbt-artifacts, dbt-lineage-ingestion, dbt-artifact-storage, data-lineage, data-quality, openmetadata-connectors, metadata-ingestion-workflow]
-sources: ["dbt Workflow  OpenMetadata Data Build Tool Integration.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/connectors/database/dbt"]
 authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/dbt"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/dbt Workflow  OpenMetadata Data Build Tool Integration]]"
 ---
 # dbt Workflow | OpenMetadata Data Build Tool Integration
 

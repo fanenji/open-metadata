@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [dbt, ingestion, cli, metadata-ingestion, openmetadata]
 related: [dbt, dbt-integration, dbt-artifact-storage, dbt-lineage-ingestion, cli-ingestion-with-basic-auth, run-dbt-workflow-externally, ingestion-framework, metadata-ingestion-workflow, filter-patterns]
 sources: ["run-dbt-workflow-externally-openmetadata-guide---o-20260514.md"]
+source_path: "[[raw/sources/run-dbt-workflow-externally-openmetadata-guide---o-20260514]]"
 ---
-
 # Run dbt Workflow Externally | OpenMetadata Guide
 
 Official OpenMetadata v1.12.x documentation providing a complete procedural guide for running the dbt metadata ingestion workflow outside the OpenMetadata UI, using a YAML configuration file executed via the `metadata ingest -c <path-to-yaml>` CLI command.

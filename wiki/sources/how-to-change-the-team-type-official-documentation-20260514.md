@@ -10,8 +10,8 @@ authors: []
 year: 2025
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users/change-team-type"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-change-the-team-type-official-documentation-20260514]]"
 ---
-
 # How to Change the Team Type | Official Documentation - OpenMetadata Documentation
 
 Official procedural guide for changing an existing team's type classification through the OpenMetadata UI. The documentation uses a `Digital_Marketing` team as an example, demonstrating the change from `Department` to `Division`.

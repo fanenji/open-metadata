@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, glossary, governance, documentation]
 related: [glossary-setup, glossary-terms, glossary-mutually-exclusive, glossary-owner-reviewer-inheritance, how-to-add-glossary-terms, classification-tags, data-asset-ownership]
 sources: ["how-to-setup-a-glossary-official-documentation---o-20260514.md"]
+source_path: "[[raw/sources/how-to-setup-a-glossary-official-documentation---o-20260514]]"
 ---
 # How to Setup a Glossary | Official Documentation - OpenMetadata Documentation
 

@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [data-discovery, ui, data-assets, openmetadata]
 related: [data-asset-details-page, data-lineage, data-profiling, data-quality, custom-properties, activity-feed, announcements, glossary-terms, classification-tags]
 sources: ["detailed-view-of-the-data-assets---openmetadata-do-20260514.md"]
+source_path: "[[raw/sources/detailed-view-of-the-data-assets---openmetadata-do-20260514]]"
 ---
-
 # Detailed View of the Data Assets - OpenMetadata Documentation
 
 **Source:** [https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/details](https://docs.open-metadata.org/v1.12.x/how-to-guides/data-discovery/details)

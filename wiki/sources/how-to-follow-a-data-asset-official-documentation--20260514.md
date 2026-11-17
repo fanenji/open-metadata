@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, data-assets, collaboration, activity-feeds]
 related: [following-data-assets, openmetadata-collaboration, change-events-system, data-asset-ownership]
 sources: ["how-to-follow-a-data-asset-official-documentation--20260514.md"]
+source_path: "[[raw/sources/how-to-follow-a-data-asset-official-documentation--20260514]]"
 ---
-
 # How to Follow a Data Asset | Official Documentation
 
 **Source:** https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/follow-data-asset

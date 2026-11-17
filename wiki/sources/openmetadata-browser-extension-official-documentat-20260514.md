@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["openmetadata-browser-extension-official-documentat-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/openmetadata-browser-extension-official-documentat-20260514]]"
 ---
-
 # Source: openmetadata-browser-extension-official-documentat-20260514.md
 
 ## Analysis of: OpenMetadata Browser Extension

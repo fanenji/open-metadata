@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, user-guide, my-data-page, widgets]
 related: [persona-and-landing-page-customization, pluggable-panels, openmetadata-collaboration, data-insights-application-troubleshooting]
 sources: ["understanding-the-basics-of-openmetadata---openmet-20260514.md"]
+source_path: "[[raw/sources/understanding-the-basics-of-openmetadata---openmet-20260514]]"
 ---
-
 # Understanding the Basics of OpenMetadata
 
 **Source:** [OpenMetadata Documentation v1.12.x](https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/basics-openmetadata)

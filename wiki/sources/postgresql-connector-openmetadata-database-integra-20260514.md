@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/database/postgres"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/postgresql-connector-openmetadata-database-integra-20260514]]"
 ---
-
 # PostgreSQL Connector | OpenMetadata Database Integration
 
 Official documentation for the PostgreSQL connector in OpenMetadata v1.12.x. Covers requirements, `pg_stat_statements` limitations, IAM authentication, stored procedure lineage, SSL configuration, and the full metadata ingestion workflow.

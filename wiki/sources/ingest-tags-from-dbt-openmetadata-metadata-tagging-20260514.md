@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["ingest-tags-from-dbt-openmetadata-metadata-tagging-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/ingest-tags-from-dbt-openmetadata-metadata-tagging-20260514]]"
 ---
-
 # Source: ingest-tags-from-dbt-openmetadata-metadata-tagging-20260514.md
 
 ## Analysis: Ingest Tags from dbt | OpenMetadata Metadata Tagging Guide

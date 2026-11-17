@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/persona-landing-page-customization/defining-persona"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-define-personas-in-openmetadata---openmetad-20260514]]"
 ---
-
 # How to Define Personas in OpenMetadata - OpenMetadata Documentation
 
 This source is a section of the official OpenMetadata v1.12.x Administration Guide, specifically the "Persona and Landing Page Customization" chapter. It provides the foundational definition of a [[persona|Persona]] and the basic procedural steps for administrators to create and manage Personas within the platform.

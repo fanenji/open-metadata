@@ -10,6 +10,7 @@ authors: ["OpenMetadata"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/admin-guide-openmetadata-administration-documentat-20260514]]"
 ---
 # Admin Guide | OpenMetadata Administration Documentation
 

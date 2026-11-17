@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/tiers"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/what-are-tiers-openmetadata-classification-tiers-g-20260514]]"
 ---
-
 # What are Tiers | OpenMetadata Classification Tiers Guide
 
 Official documentation page explaining the concept of Tiers as System Classification tags in OpenMetadata. Tiers are importance-based classification tags used to rank data assets according to their criticality to the organization.

@@ -10,6 +10,7 @@ related: [roles-and-policies, building-blocks-of-authorization---rules-policies-
 created: 2026-05-14
 updated: 2026-05-14
 sources: ["use-cases---creating-roles-policies-in-openmetadat-20260514.md"]
+source_path: "[[raw/sources/use-cases---creating-roles-policies-in-openmetadat-20260514]]"
 ---
 # Use Cases - Creating Roles & Policies in OpenMetadata
 

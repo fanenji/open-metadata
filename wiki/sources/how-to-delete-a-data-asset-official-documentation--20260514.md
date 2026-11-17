@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-delete-a-data-asset-official-documentation--20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-delete-a-data-asset-official-documentation--20260514]]"
 ---
-
 # Source: how-to-delete-a-data-asset-official-documentation--20260514.md
 
 ## Analysis of: how-to-delete-a-data-asset-official-documentation--20260514.md

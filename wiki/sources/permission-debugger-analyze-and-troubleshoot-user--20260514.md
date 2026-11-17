@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/permission-debugger"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/permission-debugger-analyze-and-troubleshoot-user--20260514]]"
 ---
-
 # Permission Debugger: Analyze and Troubleshoot User Access
 
 Official documentation for the Permission Debugger feature in OpenMetadata v1.12.x. This source provides the definitive procedural guide for using the diagnostic UI tool that simulates permission checks for a given user on a selected resource and operation.

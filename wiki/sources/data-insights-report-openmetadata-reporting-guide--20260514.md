@@ -10,6 +10,7 @@ authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-insights/report"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/data-insights-report-openmetadata-reporting-guide--20260514]]"
 ---
 # Data Insights Report | OpenMetadata Reporting Guide
 

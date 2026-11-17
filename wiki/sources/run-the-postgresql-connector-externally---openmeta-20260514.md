@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [postgresql, connector, ingestion, yaml, cli, metadata-ingestion, data-quality, data-profiling, auto-classification, lineage, usage]
 related: [postgresql-connector, pg-stat-statements, postgresql-ssl-modes, postgresql-iam-authentication, metadata-cli, external-ingestion-workflow, data-quality, data-profiling, auto-classification, cli-ingestion-with-basic-auth, dbt-integration]
 sources: ["run-the-postgresql-connector-externally---openmeta-20260514.md"]
+source_path: "[[raw/sources/run-the-postgresql-connector-externally---openmeta-20260514]]"
 ---
 # Run the PostgreSQL Connector Externally - OpenMetadata Documentation
 

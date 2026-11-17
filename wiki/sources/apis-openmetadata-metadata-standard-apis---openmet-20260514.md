@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["apis-openmetadata-metadata-standard-apis---openmet-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/apis-openmetadata-metadata-standard-apis---openmet-20260514]]"
 ---
-
 # Source: apis-openmetadata-metadata-standard-apis---openmet-20260514.md
 
 ## Analysis of: APIs | OpenMetadata Metadata Standard APIs

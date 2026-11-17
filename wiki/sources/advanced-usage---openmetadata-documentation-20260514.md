@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["advanced-usage---openmetadata-documentation-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/advanced-usage---openmetadata-documentation-20260514]]"
 ---
-
 # Source: advanced-usage---openmetadata-documentation-20260514.md
 
 # Analysis: Advanced Usage - OpenMetadata Documentation (Data Quality as Code)

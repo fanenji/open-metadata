@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-collaboration/conversation"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/conversation-threads-openmetadata-collaboration-gu-20260514]]"
 ---
 # Conversation Threads | OpenMetadata Collaboration Guide
 

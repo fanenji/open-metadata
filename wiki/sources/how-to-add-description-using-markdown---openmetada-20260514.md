@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-add-description-using-markdown---openmetada-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-add-description-using-markdown---openmetada-20260514]]"
 ---
-
 # Source: how-to-add-description-using-markdown---openmetada-20260514.md
 
 # Analysis: How to Add Description using Markdown - OpenMetadata Documentation

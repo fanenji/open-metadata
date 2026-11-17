@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["creating-data-contracts-openmetadata-data-contract-20260514-2.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/creating-data-contracts-openmetadata-data-contract-20260514-2]]"
 ---
-
 # Source: creating-data-contracts-openmetadata-data-contract-20260514-2.md
 
 ## Analysis of: creating-data-contracts-openmetadata-data-contract-20260514-2.md

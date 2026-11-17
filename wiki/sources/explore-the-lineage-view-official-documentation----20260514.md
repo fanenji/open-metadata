@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-lineage, lineage-view, openmetadata, ui]
 related: [data-lineage, lineage-layers, column-level-lineage, observability-layer, service-layer, domain-layer, data-product-layer, data-quality]
 sources: ["explore-the-lineage-view-official-documentation----20260514.md"]
+source_path: "[[raw/sources/explore-the-lineage-view-official-documentation----20260514]]"
 ---
 # Explore the Lineage View | Official Documentation
 

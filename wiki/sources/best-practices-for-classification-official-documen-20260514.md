@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/classification/best-practices"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/best-practices-for-classification-official-documen-20260514]]"
 ---
 # Best Practices for Classification | Official Documentation
 

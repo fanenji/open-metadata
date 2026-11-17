@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, rest-connector, troubleshooting, ingestion]
 related: [rest-api-connector, rest-connector-troubleshooting, ingestion-pipeline-troubleshooting, metadata-ingestion-workflow, openmetadata-connectors]
 sources: ["rest-connector-troubleshooting-guide-openmetadata--20260514.md"]
+source_path: "[[raw/sources/rest-connector-troubleshooting-guide-openmetadata--20260514]]"
 ---
-
 # REST Connector Troubleshooting Guide | OpenMetadata Support
 
 This source is the official troubleshooting documentation for the REST API Connector (Beta) in OpenMetadata v1.12.x. It covers three troubleshooting scenarios: Workflow Deployment Error, enabling debug logging for any ingestion, and a generic reference to permission issues.

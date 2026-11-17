@@ -5,9 +5,9 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [openmetadata, kubernetes, deployment, on-premises, helm]
 related: [openmetadata, kubernetes, on-premises-kubernetes-deployment, external-dependencies-configuration, airflow-storage-requirements, kubernetes-native-orchestrator]
-sources: ["OMD - Kubernetes On Premises.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/deployment/kubernetes/on-prem"]
+source_path: "[[raw/sources/OMD - Kubernetes On Premises]]"
 ---
-
 # OMD - Kubernetes On Premises
 
 Official OpenMetadata documentation (v1.12.x) covering the deployment of OpenMetadata on a self-managed, on-premises Kubernetes cluster using Helm charts. This guide addresses the additional prerequisites and configurations required beyond a standard cloud Kubernetes deployment.

@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-request-for-description---openmetadata-docu-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-request-for-description---openmetadata-docu-20260514]]"
 ---
-
 # Source: how-to-request-for-description---openmetadata-docu-20260514.md
 
 ## Key Entities

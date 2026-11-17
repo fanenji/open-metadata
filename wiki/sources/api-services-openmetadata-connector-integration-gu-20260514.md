@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["api-services-openmetadata-connector-integration-gu-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/api-services-openmetadata-connector-integration-gu-20260514]]"
 ---
-
 # Source: api-services-openmetadata-connector-integration-gu-20260514.md
 
 ## Analysis of: API Services | OpenMetadata Connector Integration Guide

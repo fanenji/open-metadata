@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["powerbi-connector-openmetadata-integration-documen-20260514-2.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/powerbi-connector-openmetadata-integration-documen-20260514-2]]"
 ---
-
 # Source: powerbi-connector-openmetadata-integration-documen-20260514-2.md
 
 ## Analysis of Source Document: PowerBI Connector | OpenMetadata Integration Documentation

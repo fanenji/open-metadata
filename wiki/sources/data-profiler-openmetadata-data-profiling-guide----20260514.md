@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, data-profiling, data-quality, pii, spark]
 related: [data-profiling, profiler-workflow, spark-engine-profiling, auto-classification, data-quality, classification-tags]
 sources: ["data-profiler-openmetadata-data-profiling-guide----20260514.md"]
+source_path: "[[raw/sources/data-profiler-openmetadata-data-profiling-guide----20260514]]"
 ---
 # Data Profiler | OpenMetadata Data Profiling Guide
 

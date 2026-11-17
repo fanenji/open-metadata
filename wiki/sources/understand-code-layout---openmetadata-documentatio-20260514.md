@@ -10,6 +10,7 @@ authors: ["OpenMetadata Contributors"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/developers/architecture/code-layout"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/understand-code-layout---openmetadata-documentatio-20260514]]"
 ---
 # Understand Code Layout - OpenMetadata Documentation
 

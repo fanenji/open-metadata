@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users"
 venue: OpenMetadata Documentation
+source_path: "[[raw/sources/guide-for-data-users-openmetadata-user-guide---ope-20260514]]"
 ---
-
 # Guide for Data Users | OpenMetadata User Guide
 
 This source is the official OpenMetadata v1.12.x user guide for data users. It provides a high-level index of user-facing features and workflows, covering the landing page, data asset management, collaboration, and governance from the perspective of a non-administrative data consumer.

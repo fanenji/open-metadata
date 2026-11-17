@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["glossary-approval-workflow-official-documentation--20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/glossary-approval-workflow-official-documentation--20260514]]"
 ---
-
 # Source: glossary-approval-workflow-official-documentation--20260514.md
 
 ## Analysis of "Glossary Approval Workflow | Official Documentation - OpenMetadata Documentation"

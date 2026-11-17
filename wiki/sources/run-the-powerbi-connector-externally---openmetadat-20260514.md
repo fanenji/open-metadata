@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [powerbi, connector, ingestion, yaml, cli]
 related: [powerbi-connector, metadata-ingestion-workflow, cli-ingestion-with-basic-auth, dashboard-lineage, dashboard-connectors, soft-deletion, pbit-file-lineage-extraction, powerbi-admin-vs-non-admin-apis]
 sources: ["run-the-powerbi-connector-externally---openmetadat-20260514.md"]
+source_path: "[[raw/sources/run-the-powerbi-connector-externally---openmetadat-20260514]]"
 ---
 # Run the PowerBI Connector Externally - OpenMetadata Documentation
 

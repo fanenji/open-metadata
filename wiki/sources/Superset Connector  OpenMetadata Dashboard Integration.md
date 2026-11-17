@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [connectors, dashboard, superset, ingestion]
 related: [superset-connector, dashboard-connectors, dashboard-lineage, openmetadata-connectors, data-lineage, postgresql-ssl-modes, metadata-ingestion-workflow, service-connection]
-sources: ["Superset Connector  OpenMetadata Dashboard Integration.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/connectors/dashboard/superset"]
 authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/connectors/dashboard/superset"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/Superset Connector  OpenMetadata Dashboard Integration]]"
 ---
 # Superset Connector: OpenMetadata Dashboard Integration
 

@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [dbt, metadata-ingestion, data-lineage, data-quality, openmetadata]
 related: [dbt, dbt-integration, dbt-artifacts, dbt-lineage-ingestion, dbt-artifact-storage, openmetadata]
 sources: ["dbt-workflow-openmetadata-data-build-tool-integrat-20260514.md"]
+source_path: "[[raw/sources/dbt-workflow-openmetadata-data-build-tool-integrat-20260514]]"
 ---
-
 # dbt Workflow | OpenMetadata Data Build Tool Integration
 
 Official documentation for the dbt integration in OpenMetadata v1.12.x. Covers the requirements, artifact files (manifest.json, catalog.json, run_results.json), generation commands, storage configuration for dbt Core, dbt Cloud API integration, and the ten categories of metadata ingested from dbt.

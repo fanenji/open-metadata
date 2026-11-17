@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["get-a-quick-glance-of-the-data-assets---openmetada-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/get-a-quick-glance-of-the-data-assets---openmetada-20260514]]"
 ---
-
 # Source: get-a-quick-glance-of-the-data-assets---openmetada-20260514.md
 
 ## Analysis of: Get a Quick Glance of the Data Assets - OpenMetadata Documentation

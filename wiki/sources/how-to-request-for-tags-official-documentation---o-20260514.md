@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/request-tags"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/how-to-request-for-tags-official-documentation---o-20260514]]"
 ---
-
 # How to Request for Tags | Official Documentation - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for the "How to Request for Tags" guide. It covers two main features: the tag request workflow via Tasks and conversations around tags.

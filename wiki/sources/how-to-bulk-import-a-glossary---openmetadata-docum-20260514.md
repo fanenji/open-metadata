@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, glossary, bulk-import, csv, data-governance]
 related: [glossary-bulk-import, mutually-exclusive-glossary, glossary-terms, data-asset-ownership, classification-tags]
 sources: ["how-to-bulk-import-a-glossary---openmetadata-docum-20260514.md"]
+source_path: "[[raw/sources/how-to-bulk-import-a-glossary---openmetadata-docum-20260514]]"
 ---
-
 # How to Bulk Import a Glossary - OpenMetadata Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for bulk importing glossary terms via CSV. It covers the complete workflow: creating or updating a glossary, exporting a CSV template, filling in fields (parent, name, displayName, description, synonyms, relatedTerms, references, tags), the mutually exclusive glossary configuration, Owner/Reviewer inheritance, and the validation preview step before final import.

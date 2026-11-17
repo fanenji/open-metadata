@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["ingest-tiers-from-dbt-openmetadata-data-tiering-gu-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/ingest-tiers-from-dbt-openmetadata-data-tiering-gu-20260514]]"
 ---
-
 # Source: ingest-tiers-from-dbt-openmetadata-data-tiering-gu-20260514.md
 
 ## Analysis: Ingest Tiers from dbt | OpenMetadata Data Tiering Guide

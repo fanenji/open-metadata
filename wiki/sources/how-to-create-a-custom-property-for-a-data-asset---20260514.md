@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [custom-properties, data-assets, metadata-extension, schema-first]
 related: [custom-properties, custom-property-types, custom-property-naming-conventions, schema-first-approach, openmetadata-administration]
 sources: ["how-to-create-a-custom-property-for-a-data-asset---20260514.md"]
+source_path: "[[raw/sources/how-to-create-a-custom-property-for-a-data-asset---20260514]]"
 ---
-
 # How to Create a Custom Property for a Data Asset
 
 Official OpenMetadata v1.12.x documentation for creating custom properties on data assets. This guide covers the schema-first approach that enables custom property support, the 18 supported data types, the step-by-step creation workflow, value assignment, and deletion procedures.

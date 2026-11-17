@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, glossary, data-governance, controlled-vocabulary]
 related: [glossary-overview, glossary-terms, glossary-fqn, glossary-apis, classification-tags, openmetadata]
 sources: ["glossary-openmetadata-data-glossary-guide---openme-20260514.md"]
+source_path: "[[raw/sources/glossary-openmetadata-data-glossary-guide---openme-20260514]]"
 ---
 # Glossary | OpenMetadata Data Glossary Guide
 

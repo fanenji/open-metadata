@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [community-meeting, release-1.2.0, data-mesh, domains, data-products, glossary-approval, personas, metadata-applications, cost-analysis, knowledge-center]
 related: [data-mesh-openmetadata, glossary-approval-workflow, metadata-applications-framework, cost-analysis, knowledge-center, chrome-extension, collate-inc, persona, pluggable-panels, glossary-tags, data-lineage, openmetadata-features, data-insights-application-troubleshooting, unified-metadata-graph]
-sources: ["OpenMetadata Community Meeting Oct 2023 Release 1 2 0 datamesh openmetadata.md"]
+sources: ["https://www.youtube.com/watch?v=Nh2xLAwY2-A&t=2461s"]
 authors: ["OpenMetadata"]
 year: 2023
 url: "https://www.youtube.com/watch?v=Nh2xLAwY2-A"
 venue: "YouTube"
+source_path: "[[raw/sources/OpenMetadata Community Meeting Oct 2023 Release 1 2 0 datamesh openmetadata]]"
 ---
 # OpenMetadata Community Meeting Oct 2023: Release 1.2.0
 

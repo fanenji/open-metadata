@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-governance/glossary/glossary-term"
 venue: "OpenMetadata Documentation v1.12.x"
+source_path: "[[raw/sources/what-is-a-glossary-term-official-documentation---o-20260514]]"
 ---
 # What is a Glossary Term | Official Documentation - OpenMetadata Documentation
 

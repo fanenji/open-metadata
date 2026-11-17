@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-quality-observability/alerts-notifications/system-governance-notifications"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/system-governance-notifications-openmetadata---ope-20260514]]"
 ---
 # System & Governance Notifications | OpenMetadata
 

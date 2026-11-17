@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, data-profiling, external-workflow, profiler]
 related: [external-profiler-workflow, data-profiling, metadata-cli, personal-access-token, sample-data-external-storage, sample-data-storage-toggle]
 sources: ["external-profiler-workflow-official-documentation--20260514.md"]
+source_path: "[[raw/sources/external-profiler-workflow-official-documentation--20260514]]"
 ---
-
 # External Profiler Workflow | Official Documentation
 
 This source is the official OpenMetadata documentation page for the External Profiler Workflow (v1.12.x). It describes how to run a single profiler workflow for an entire data source, even when that source's assets are split across multiple OpenMetadata services. The document covers requirements, YAML configuration structure, and two execution methods (CLI and Python SDK).

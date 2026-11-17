@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-insights, ingestion, application-framework, admin]
 related: [data-insights-ingestion-setup, data-insights-application-troubleshooting, application-framework, openmetadata-insights, backfill-configuration]
 sources: ["set-up-data-insights-ingestion-official-documentat-20260514.md"]
+source_path: "[[raw/sources/set-up-data-insights-ingestion-official-documentat-20260514]]"
 ---
 # Set Up Data Insights Ingestion
 

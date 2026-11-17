@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [openmetadata, metadata-standard, json-schema, rdf, owl, shacl, json-ld, prov-o, semantic-web]
 related: [metadata-standard, semantic-web-support, jsonschemas, schema-first-approach, unified-metadata-graph, openmetadata-system-architecture]
 sources: ["metadata-standard-openmetadata-core-schema-guide---20260514.md"]
+source_path: "[[raw/sources/metadata-standard-openmetadata-core-schema-guide---20260514]]"
 ---
-
 # Metadata Standard | OpenMetadata Core Schema Guide
 
 **Source:** [OpenMetadata Documentation v1.12.x](https://docs.open-metadata.org/v1.12.x/api-reference/main-concepts/metadata-standard)

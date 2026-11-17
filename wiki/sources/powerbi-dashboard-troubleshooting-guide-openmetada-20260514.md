@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [powerbi, troubleshooting, ingestion, connectors]
 related: [powerbi-connector, workflow-deployment-error, debug-logging-ingestion, ingestion-pipeline-troubleshooting, openmetadata-connectors]
 sources: ["powerbi-dashboard-troubleshooting-guide-openmetada-20260514.md"]
+source_path: "[[raw/sources/powerbi-dashboard-troubleshooting-guide-openmetada-20260514]]"
 ---
-
 # PowerBI Dashboard Troubleshooting Guide | OpenMetadata Support
 
 This is the official OpenMetadata v1.12.x troubleshooting guide for the PowerBI dashboard connector. It documents three troubleshooting scenarios: Workflow Deployment Error (orphan Ingestion Pipeline Entity creation), enabling debug logging for any ingestion workflow, and permission issues that require connector-specific prerequisite verification.

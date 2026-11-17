@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation Team"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/teams-and-users/invite-users"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-invite-users-to-openmetadata---openmetadata-20260514]]"
 ---
-
 # How to Invite Users to OpenMetadata - OpenMetadata Documentation
 
 Official documentation page describing the UI workflow for inviting new users to the OpenMetadata platform. Covers the navigation path (Settings >> Team & User Management >> Users >> Add Users), the required form fields (Email, Display Name, Description, Teams, Roles), the Admin toggle for granting administrative privileges, and the note that users inherit roles from their assigned teams in addition to any explicitly assigned roles.

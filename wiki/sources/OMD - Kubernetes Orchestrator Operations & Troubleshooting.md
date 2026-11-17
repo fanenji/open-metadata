@@ -5,11 +5,12 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [kubernetes, ingestion, troubleshooting, migration, operations]
 related: [kubernetes-native-orchestrator, omjob-operator, pipeline-service-client, helm-charts, airflow-to-kubernetes-migration, ingestion-pipeline-troubleshooting, exit-handler-guarantee]
-sources: ["OMD - Kubernetes Orchestrator Operations & Troubleshooting.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/deployment/ingestion/kubernetes/troubleshooting"]
 authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/deployment/ingestion/kubernetes/troubleshooting"
 venue: "OpenMetadata Official Documentation"
+source_path: "[[raw/sources/OMD - Kubernetes Orchestrator Operations & Troubleshooting]]"
 ---
 # OMD - Kubernetes Orchestrator Operations & Troubleshooting
 

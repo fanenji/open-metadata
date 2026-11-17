@@ -10,8 +10,8 @@ authors: ["OpenMetadata Documentation"]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/roles-policies/authorization"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/building-blocks-of-authorization---rules-policies--20260514]]"
 ---
-
 # Building Blocks of Authorization - Rules, Policies, and Roles
 
 Official OpenMetadata v1.12.x documentation detailing the three-tier authorization architecture: Rules (atomic building blocks with SpEL-based conditions), Policies (bundles of rules with Deny precedence and team-level assignment), and Roles (structured hierarchies of policies aligned with job functions). Covers the default Organization Policy with its two out-of-the-box rules, policy inheritance through team hierarchy, and the optional Search RBAC feature.

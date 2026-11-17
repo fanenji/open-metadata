@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [data-quality, sdk, python, testing, documentation]
 related: [data-quality-as-code, testrunner-api, dataframe-validation, test-definition-sources, data-quality, ingestion-framework, personal-access-token, data-observability-alerts]
 sources: ["data-quality-as-code---openmetadata-documentation-20260514.md"]
+source_path: "[[raw/sources/data-quality-as-code---openmetadata-documentation-20260514]]"
 ---
 # Data Quality as Code - OpenMetadata Documentation
 

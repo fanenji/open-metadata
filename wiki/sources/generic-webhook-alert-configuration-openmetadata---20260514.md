@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["generic-webhook-alert-configuration-openmetadata---20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/generic-webhook-alert-configuration-openmetadata---20260514]]"
 ---
-
 # Source: generic-webhook-alert-configuration-openmetadata---20260514.md
 
 ## Analysis of: generic-webhook-alert-configuration-openmetadata---20260514.md

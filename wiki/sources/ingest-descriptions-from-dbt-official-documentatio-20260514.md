@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["ingest-descriptions-from-dbt-official-documentatio-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/ingest-descriptions-from-dbt-official-documentatio-20260514]]"
 ---
-
 # Source: ingest-descriptions-from-dbt-official-documentatio-20260514.md
 
 ## Analysis: Ingest Descriptions from dbt

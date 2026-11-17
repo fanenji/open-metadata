@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["data-quality-openmetadata-quality-management-guide-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/data-quality-openmetadata-quality-management-guide-20260514]]"
 ---
-
 # Source: data-quality-openmetadata-quality-management-guide-20260514.md
 
 ## Analysis of: Data Quality | OpenMetadata Quality Management Guide

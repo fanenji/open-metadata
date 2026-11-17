@@ -5,7 +5,8 @@ created: 2026-05-14
 updated: 2026-05-14
 tags: [postgresql, connector, ingestion, lineage, usage, ssl, iam]
 related: [postgresql-connector, pg-stat-statements, openmetadata-connectors, data-lineage, ingestion-framework, metadata-ingestion-workflow, dbt-integration, data-profiling, data-quality, postgresql-iam-authentication, postgresql-ssl-modes, stored-procedure-lineage]
-sources: ["PostgreSQL Connector  OpenMetadata Database Integration.md"]
+sources: ["https://docs.open-metadata.org/v1.12.x/connectors/database/postgres"]
+source_path: "[[raw/sources/PostgreSQL Connector  OpenMetadata Database Integration]]"
 ---
 # PostgreSQL Connector | OpenMetadata Database Integration
 

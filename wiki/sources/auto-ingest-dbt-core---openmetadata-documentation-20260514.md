@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["auto-ingest-dbt-core---openmetadata-documentation-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/auto-ingest-dbt-core---openmetadata-documentation-20260514]]"
 ---
-
 # Source: auto-ingest-dbt-core---openmetadata-documentation-20260514.md
 
 ## Analysis: Auto Ingest dbt-core - OpenMetadata Documentation

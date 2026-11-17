@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["run-the-superset-connector-externally---openmetada-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/run-the-superset-connector-externally---openmetada-20260514]]"
 ---
-
 # Source: run-the-superset-connector-externally---openmetada-20260514.md
 
 ## Key Entities

@@ -15,12 +15,12 @@ Classification Tags are metadata labels applied to data assets (tables, columns,
 
 Classification Tags are distinct from [[glossary-tags|Glossary Terms]], which provide business definitions and semantic meaning. While Glossary Terms describe *what data means*, Classification Tags describe *how data should be handled*.
 
-| Aspect | Classification Tags | Glossary Terms |
-|--------|---------------------|----------------|
-| Purpose | Governance, access control, discovery | Business definitions, semantic meaning |
-| Examples | `PII.Sensitive`, `Tier.Tier1`, `Confidential` | `Customer`, `Revenue`, `Churn Rate` |
-| Used by | ABAC policies, data discovery filters | Data documentation, business context |
-| Managed in | Govern > Classification | Govern > Glossary |
+| Aspect     | Classification Tags                           | Glossary Terms                         |
+| ---------- | --------------------------------------------- | -------------------------------------- |
+| Purpose    | Governance, access control, discovery         | Business definitions, semantic meaning |
+| Examples   | `PII.Sensitive`, `Tier.Tier1`, `Confidential` | `Customer`, `Revenue`, `Churn Rate`    |
+| Used by    | ABAC policies, data discovery filters         | Data documentation, business context   |
+| Managed in | Govern > Classification                       | Govern > Glossary                      |
 
 ## Tag Propagation from Glossary Terms
 

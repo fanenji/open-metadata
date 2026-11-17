@@ -10,6 +10,7 @@ authors: []
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/admin-guide/delete-service-connection"
 venue: "OpenMetadata Official Documentation v1.12.x"
+source_path: "[[raw/sources/how-to-delete-a-service-connection-official-docume-20260514]]"
 ---
 # How to Delete a Service Connection | Official Documentation
 

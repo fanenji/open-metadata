@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [openmetadata, data-collaboration, tasks, descriptions]
 related: [how-to-request-for-description, tasks, conversation-threads, activity-feed, how-to-request-for-tags]
 sources: ["request-for-description-official-documentation---o-20260514.md"]
+source_path: "[[raw/sources/request-for-description-official-documentation---o-20260514]]"
 ---
 # Request for Description | Official Documentation - OpenMetadata Documentation
 

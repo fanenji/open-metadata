@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [classification, tags, data-governance, openmetadata]
 related: [classification-tags, system-classification, tiers, tag-based-access-control, auto-classification, pii-sample-data-masking, classification-vs-categorization-tags, mutually-exclusive-tags, classification-apis]
 sources: ["overview-of-classification-official-documentation--20260514.md"]
+source_path: "[[raw/sources/overview-of-classification-official-documentation--20260514]]"
 ---
 # Overview of Classification | Official Documentation
 

@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["how-to-deploy-a-lineage-workflow---openmetadata-do-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/how-to-deploy-a-lineage-workflow---openmetadata-do-20260514]]"
 ---
-
 # Source: how-to-deploy-a-lineage-workflow---openmetadata-do-20260514.md
 
 ## Analysis: How to Deploy a Lineage Workflow

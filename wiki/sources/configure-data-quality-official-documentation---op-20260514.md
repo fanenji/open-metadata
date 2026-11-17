@@ -10,6 +10,7 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/data-quality-observability/quality/configure"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/configure-data-quality-official-documentation---op-20260514]]"
 ---
 # Configure Data Quality | Official Documentation
 

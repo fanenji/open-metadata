@@ -6,8 +6,8 @@ updated: 2026-05-14
 tags: [data-discovery, search, openmetadata]
 related: [advanced-search, data-discovery, metadata-versioning, usage-metrics, elasticsearch-7x, tiers, data-lineage, data-profiling, soft-deletion]
 sources: ["how-to-discover-assets-of-interest---openmetadata--20260514.md"]
+source_path: "[[raw/sources/how-to-discover-assets-of-interest---openmetadata--20260514]]"
 ---
-
 # How to Discover Assets of Interest - OpenMetadata Documentation
 
 This official OpenMetadata v1.12.x how-to guide describes the multiple complementary strategies for discovering data assets within the platform. It covers keyword search, quick filters (by owner, tag, tier, service, database, and deleted assets), filtering by importance (tiers and usage), discovering data through association (frequently joined tables and lineage relationships), advanced search with Boolean operators and faceted queries, and discovering data evolution via lineage and metadata versioning. The guide emphasizes that search APIs are backed by Elasticsearch and that usage metrics are captured during metadata/profiler ingestion.

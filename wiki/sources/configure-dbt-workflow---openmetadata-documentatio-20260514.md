@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["configure-dbt-workflow---openmetadata-documentatio-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/configure-dbt-workflow---openmetadata-documentatio-20260514]]"
 ---
-
 # Source: configure-dbt-workflow---openmetadata-documentatio-20260514.md
 
 ## Key Entities

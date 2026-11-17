@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["key-performance-indicators-kpi-official-documentat-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/key-performance-indicators-kpi-official-documentat-20260514]]"
 ---
-
 # Source: key-performance-indicators-kpi-official-documentat-20260514.md
 
 ## Analysis of: Key Performance Indicators (KPI) | Official Documentation - OpenMetadata Documentation

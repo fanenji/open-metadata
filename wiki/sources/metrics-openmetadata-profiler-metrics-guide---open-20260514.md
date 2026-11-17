@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [profiler, metrics, data-quality, data-profiling]
 related: [profiler-metrics, system-metrics, data-profiling, data-quality, profiler-workflow]
 sources: ["metrics-openmetadata-profiler-metrics-guide---open-20260514.md"]
+source_path: "[[raw/sources/metrics-openmetadata-profiler-metrics-guide---open-20260514]]"
 ---
 # Metrics | OpenMetadata Profiler Metrics Guide
 

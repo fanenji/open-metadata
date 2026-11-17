@@ -6,6 +6,7 @@ updated: 2026-05-14
 tags: [glossary, styling, customization, data-governance]
 related: [glossary-terms, glossary-styling, how-to-add-glossary-terms, classification-tags]
 sources: ["glossary-styling-openmetadata-glossary-customizati-20260514.md"]
+source_path: "[[raw/sources/glossary-styling-openmetadata-glossary-customizati-20260514]]"
 ---
 # Glossary Styling | OpenMetadata Glossary Customization
 

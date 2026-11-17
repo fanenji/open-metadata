@@ -10,8 +10,8 @@ authors: [OpenMetadata]
 year: 2026
 url: "https://docs.open-metadata.org/v1.12.x/how-to-guides/guide-for-data-users/announcements"
 venue: "OpenMetadata Documentation"
+source_path: "[[raw/sources/overview-of-announcements-official-documentation---20260514]]"
 ---
-
 # Overview of Announcements | Official Documentation
 
 This source is the official OpenMetadata v1.12.x documentation page for the Announcements feature. It describes the purpose, creation workflow, scheduling, display mechanisms, and interaction capabilities of announcements. The page positions announcements as a solution to the organizational challenge of communicating upcoming data changes (deprecation, deletion, schema changes) to the entire team in a timely manner.

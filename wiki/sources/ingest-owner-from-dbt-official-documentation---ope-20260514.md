@@ -6,8 +6,8 @@ updated: 2026-05-15
 sources: ["ingest-owner-from-dbt-official-documentation---ope-20260514.md"]
 tags: []
 related: []
+source_path: "[[raw/sources/ingest-owner-from-dbt-official-documentation---ope-20260514]]"
 ---
-
 # Source: ingest-owner-from-dbt-official-documentation---ope-20260514.md
 
 ## Key Entities
